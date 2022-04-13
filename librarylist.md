@@ -10,5 +10,7 @@
 | Maxim MAX30102 MicroPython driver | Sensors | Oximeter and Pulse sensor driver | https://github.com/n-elia/MAX30102-MicroPython-driver | MIT | n/a | n/a |
 | MicroPython I2C 16x2 LCD Screen | Displays | MicroPython interface for i2c LCD character screens | https://github.com/Bucknalla/micropython-i2c-lcd | MIT | n/a/ | n/a |
 | sh1107-micropython | Display | Micropython driver for SH1107-based OLED display | https://github.com/nemart69/sh1107-micropython | n/a | n/a | n/a |
-| pi_pico_neopixel | Driver for Neopixel LEDs | LED | https://github.com/blaz-r/pi_pico_neopixel | MIT | n/a | n/a |
+| pi_pico_neopixel | LEDs | Driver for Neopixel LEDs | https://github.com/blaz-r/pi_pico_neopixel | MIT | n/a | n/a |
 | MicroPython Thermal Printer | Printer | This is the MicroPython port of Python Thermal Printer by Adafruit | https://github.com/ayoy/micropython-thermal-printer | n/a | n/a | n/a |
+| Micropython_Adafruit_MAX7219 | LEDs | Driver for a single MAX7219-based LED matrix | https://github.com/adafruit/micropython-adafruit-max7219 | MIT | n/a | Discontinued in favour of CircuitPython but it works |
+| MicroPython TM1637 | Display | A MicroPython library for quad 7-segment LED display modules using the TM1637 LED driver | https://github.com/mcauser/micropython-tm1637 | MIT | n/a | n/a |
