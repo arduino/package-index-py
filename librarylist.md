@@ -1,7 +1,6 @@
 
 | Name | Type | Purpose | Source repo link | License | MP version | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| first | aaa | aaa | aaa | aaa | aaa |
 |PicoServo|Motors|A small class for controlling servos using micropython on the Raspberry Pi Pico|https://github.com/sandbo00/picoservo|MIT|?| |
 |micropython-DS3231-AT24C32 | Time | MicroPython driver for DS3231 RTC and AT24C32 EEPROM module.| https://github.com/pangopi/micropython-DS3231-AT24C32 | MIT | n/a | AT24C32 impl. missing |
 |micropython_ahtx0 | Sensors | MicroPython driver for the AHT10 and AHT20 temperature and humidity sensors | https://github.com/targetblank/micropython_ahtx0 | MIT | n/a | n/a |
