@@ -1,0 +1,20 @@
+libraries:
+- micropython-rotary:	
+    url: https://github.com/miketeachman/micropython-rotary
+    license: 
+    author: miketeachman 
+    description: MicroPython driver to read a rotary encoder. Works with Pyboard, Raspberry Pi Pico, ESP8266, and ESP32 development boards. This is a robust implementation providing effective debouncing of encoder contacts. It uses two GPIO pins configured to trigger interrupts,...
+    documentation-url:
+    examples-url: 
+- sdcard:
+    url: https://github.com/micropython/micropython/tree/master/drivers/sdcard
+    author:
+    description: MicroPython driver for SD cards using SPI bus. Requires an SPI bus and a CS pin.  Provides readblocks and writeblocks methods so the device can be mounted as a filesystem.
+- lcd:
+    url: https://github.com/dhylands/python_lcd/tree/master/lcd
+    desccription: DHT11/DHT22 driver for MicroPython on ESP8266
+    license: MIT license; Copyright (c) 2016 Damien P. George
+- neopixel:
+    url: https://github.com/micropython/micropython/tree/master/drivers/neopixel
+    description: NeoPixel driver for MicroPython
+    license: MIT license; Copyright (c) 2016 Damien P. George, 2021 Jim Mussared
