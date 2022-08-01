@@ -8,7 +8,11 @@ libraries:
     description: MicroPython driver for SD cards using SPI bus. Requires an SPI bus and a CS pin.  Provides readblocks and writeblocks methods so the device can be mounted as a filesystem.
 - lcd:
     url: https://github.com/dhylands/python_lcd/tree/master/lcd
-    desccription: DHT11/DHT22 driver for MicroPython on ESP8266
+    description: Python code for talking to HD44780 compatible character based dot matrix LCDs.
+    tags: [ "displays" ]
+- dht:
+    url: https://github.com/micropython/micropython/tree/master/drivers/dht
+    description: DHT11/DHT22 driver for MicroPython on ESP8266
     license: MIT license; Copyright (c) 2016 Damien P. George
 - neopixel:
     url: https://github.com/micropython/micropython/tree/master/drivers/neopixel
