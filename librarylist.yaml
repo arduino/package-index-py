@@ -58,5 +58,8 @@ libraries:
     url: https://github.com/mcauser/micropython-tm1637
     description: A MicroPython library for quad 7-segment LED display modules using the TM1637 LED driver.
     tags: [ "displays" ]
-    
+- micropython-adafruit-max7219:
+    url: https://github.com/adafruit/micropython-adafruit-max7219
+    description: DEPRECATED - Driver for a single MAX7219-based LED matrix.
+    tags: [ "LEDs" ]
     
