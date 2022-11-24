@@ -119,7 +119,7 @@ CircuitPython driver for the MAX7219 LED matrix driver chip.
 
 ### Pressure/temp sensor
 
-Adafruit BME280 Library, a library for the Adafruit BME280 Humidity, Barometric Pressure + Temp sensor  
+Adafruit BME280 Library, a library for the Adafruit BME280 Humidity, Barometric Pressure + Temp sensor.  
 
 🌐 **URL:** https://github.com/RuiSantosdotme/ESP-MicroPython  
 🏷️ **Tags:** pressure, temperature  
