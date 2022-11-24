@@ -44,5 +44,4 @@ function writeMarkdownFile(descriptionPath, targetPath, markdownLibraryList) {
 
 const libraryList = getLibraryListFromYaml(REGISTRY_FILE_PATH);
 const markdownLibraryList = getMarkdownFromLibraryList(libraryList);
-console.log(markdownLibraryList);
 writeMarkdownFile(REPO_DESCRIPTION_PATH, TARGET_PATH, markdownLibraryList);
