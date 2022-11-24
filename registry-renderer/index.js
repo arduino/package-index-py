@@ -16,7 +16,7 @@ function getLibraryListFromYaml(path) {
 function getMarkdownFromLibraryList(libraryList) {
     const libraryData = libraryList.map(library => {
         const properties = Object.values(library)[0];
-        let entry = `### ${properties.name}\n${properties.description}  \n\n`;
+        let entry = `### ${properties.name}\n\n${properties.description}  \n\n`;
         
         if(properties.url) {
             entry += `🌐 **URL:** ${properties.url}  \n`;
@@ -32,7 +32,7 @@ function getMarkdownFromLibraryList(libraryList) {
         }
         return entry;
         
-    }).join("\n<hr />\n");
+    }).join("<hr />\n\n");
     return `## 📚 Libraries\n${libraryData}`;
 }
 
