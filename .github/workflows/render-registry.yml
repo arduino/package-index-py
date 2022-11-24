@@ -15,7 +15,6 @@ jobs:
       - name: Commit list
         run: |
           git config --global user.name 'Arduino'
-          git config --global user.email 'ft-content@arduino.cc'
-          git add README.md
-          git commit -am "Automated rendering of registry"
+          git config --global user.email 'ft.content@arduino.cc'
+          git commit -am "Automated rendering of registry" || true
           git push
