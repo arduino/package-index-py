@@ -74,7 +74,7 @@ libraries:
 - micropython-PressureTemp:
     name: Pressure/temp sensor
     url: https://github.com/RuiSantosdotme/ESP-MicroPython
-    description:  Adafruit BME280 Library, a library for the Adafruit BME280 Humidity, Barometric Pressure + Temp sensor
+    description:  Adafruit BME280 Library, a library for the Adafruit BME280 Humidity, Barometric Pressure + Temp sensor.
     tags: [ "pressure", "temperature" ]
 - micropython-IR:
     name: Device drivers for IR (infra red) remote controls
