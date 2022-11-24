@@ -17,11 +17,21 @@ function getMarkdownFromLibraryList(libraryList) {
     const libraryData = libraryList.map(library => {
         const properties = Object.values(library)[0];
         let entry = `### ${properties.name}\n${properties.description}  \n\n`;
-        entry += `🌐 **URL:** ${properties.url}  \n`;
-        entry += `✍️ **Author:** ${properties.author}  \n`;
-        entry += `📜 **License:** ${properties.license}  \n`;
-        entry += `🏷️ **Tags:** ${properties.tags.join(', ')}  \n`;
+        
+        if(properties.url) {
+            entry += `🌐 **URL:** ${properties.url}  \n`;
+        }        
+        if(properties.author) {            
+            entry += `👤 **Author:** ${properties.author}  \n`;
+        }
+        if(properties.license) {
+            entry += `📜 **License:** ${properties.license}  \n`;
+        }
+        if(properties.tags) {
+            entry += `🏷️ **Tags:** ${properties.tags.join(', ')}  \n`;
+        }
         return entry;
+        
     }).join("\n<hr />\n");
     return `## 📚 Libraries\n${libraryData}`;
 }
