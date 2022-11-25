@@ -101,20 +101,13 @@ A MicroPython library for quad 7-segment LED display modules using the TM1637 LE
 🏷️ **Tags:** display  
 <hr />
 
-### DEPRECATED LIBRARY
+### MicroPython MAX7219 8x8 LED Matrix
 
-DEPRECATED - Driver for a single MAX7219-based LED matrix.  
+A MicroPython library for the MAX7219 8x8 LED matrix driver, SPI interface, supports cascading and uses framebuf  
 
-🌐 **URL:** https://github.com/adafruit/micropython-adafruit-max7219  
-🏷️ **Tags:** LED  
-<hr />
-
-### CircuitPython driver for the MAX7219 LED matrix driver chip.
-
-CircuitPython driver for the MAX7219 LED matrix driver chip.  
-
-🌐 **URL:** https://github.com/adafruit/Adafruit_CircuitPython_MAX7219  
-🏷️ **Tags:** LED  
+🌐 **URL:** https://github.com/mcauser/micropython-max7219  
+📜 **License:** Licensed under the MIT License.  
+🏷️ **Tags:** LED, matrix  
 <hr />
 
 ### Pressure/temp sensor
