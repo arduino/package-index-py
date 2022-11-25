@@ -61,16 +61,12 @@ libraries:
     url: https://github.com/mcauser/micropython-tm1637
     description: A MicroPython library for quad 7-segment LED display modules using the TM1637 LED driver. For example, the Grove - 4 Digit Display module http://wiki.seeed.cc/Grove-4-Digit_Display/
     tags: [ "display" ]
-- micropython-adafruit-max7219-deprecated:
-    name: DEPRECATED LIBRARY 
-    url: https://github.com/adafruit/micropython-adafruit-max7219
-    description: DEPRECATED - Driver for a single MAX7219-based LED matrix.
-    tags: [ "LED" ]
-- micropython-adafruit-max7219:
-    name: CircuitPython driver for the MAX7219 LED matrix driver chip.
-    url: https://github.com/adafruit/Adafruit_CircuitPython_MAX7219
-    description: CircuitPython driver for the MAX7219 LED matrix driver chip.
-    tags: [ "LED" ]
+- micropython-max7219:
+    name: MicroPython MAX7219 8x8 LED Matrix
+    url: https://github.com/mcauser/micropython-max7219
+    description: A MicroPython library for the MAX7219 8x8 LED matrix driver, SPI interface, supports cascading and uses framebuf
+    tags: [ "LED", "matrix" ]
+    license: Licensed under the MIT License.
 - micropython-PressureTemp:
     name: Pressure/temp sensor
     url: https://github.com/RuiSantosdotme/ESP-MicroPython
