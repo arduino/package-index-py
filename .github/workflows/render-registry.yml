@@ -1,0 +1,20 @@
+name: Render Registry
+on: push
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 14
+          cache: "npm"
+          cache-dependency-path: "**/package-lock.json"
+      - name: Render list
+        run: cd registry-renderer; npm i; node index.js
+      - name: Commit list
+        run: |
+          git config --global user.name 'Arduino'
+          git config --global user.email 'ft.content@arduino.cc'
+          git commit -am "Automated rendering of registry" || true
+          git push
