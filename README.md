@@ -47,10 +47,10 @@ MicroPython driver for the AHT10 and AHT20 temperature and humidity sensors.
 
 ### DFPlayer control using UART 1
 
-Micropython implementation of DFPlayer control using UART 1 (secondary Serial connection) on ESP8266  
+Micropython implementation of DFPlayer control over UART  
 
 🌐 **URL:** https://github.com/ubidefeo/micropython-dfplayer  
-🏷️ **Tags:** sensors  
+🏷️ **Tags:** audio, mp3  
 <hr />
 
 ### Maxim MAX30102 MicroPython driver
@@ -61,12 +61,12 @@ A port of the SparkFun driver for Maxim MAX30102 sensor to MicroPython.
 🏷️ **Tags:** sensors  
 <hr />
 
-### MicroPython I2C 16x2 LCD Screen
+### MicroPython I2C 16x2 LCD Screen (monochrome and RGB)
 
 This library is designed to support a MicroPython interface for i2c LCD character screens. It is designed around the Pycom implementation of MicroPython  
 
-🌐 **URL:** https://github.com/Bucknalla/micropython-i2c-lcd  
-🏷️ **Tags:** display, LCD  
+🌐 **URL:** https://github.com/ubidefeo/micropython-i2c-lcd  
+🏷️ **Tags:** display, LCD, RGB  
 <hr />
 
 ### SH1107 based OLED display
