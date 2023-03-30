@@ -5,6 +5,11 @@ libraries:
     author: miketeachman 
     description: MicroPython driver to read a rotary encoder. Works with Pyboard, Raspberry Pi Pico, ESP8266, and ESP32 development boards. This is a robust implementation providing effective debouncing of encoder contacts. It uses two GPIO pins configured to trigger interrupts, ...
     tags: [ "encoder" ]
+    validation:
+        - fqbn: "arduino:mbed_nano:nanorp2040connect"
+          library_version: null
+          micropython_version: "1.19.1"
+          tester: "arduino"
 - lcd:
     name: lcd_api and i2c_lcd
     url: https://github.com/dhylands/python_lcd/
@@ -31,6 +36,11 @@ libraries:
     url: https://github.com/ubidefeo/micropython-dfplayer
     description: Micropython implementation of DFPlayer control over UART
     tags: [ "audio", "mp3" ] 
+    validation:
+        - fqbn: "arduino:mbed_nano:nanorp2040connect"
+          library_version: null
+          micropython_version: "1.19.1"
+          tester: "arduino"
 -  MAX30102-MicroPython-driver: 
     name: Maxim MAX30102 MicroPython driver
     url: https://github.com/n-elia/MAX30102-MicroPython-driver
@@ -61,6 +71,11 @@ libraries:
     url: https://github.com/mcauser/micropython-tm1637
     description: A MicroPython library for quad 7-segment LED display modules using the TM1637 LED driver. For example, the Grove - 4 Digit Display module http://wiki.seeed.cc/Grove-4-Digit_Display/
     tags: [ "display" ]
+    validation:
+        - fqbn: "arduino:mbed_nano:nanorp2040connect"
+          library_version: "1.3.0"
+          micropython_version: "1.19.1"
+          tester: "arduino"
 - micropython-max7219:
     name: MicroPython MAX7219 8x8 LED Matrix
     url: https://github.com/mcauser/micropython-max7219
