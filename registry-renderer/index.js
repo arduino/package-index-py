@@ -25,20 +25,19 @@ function getLibraryListFromYaml(path) {
  */
 function getMarkdownFromLibraryList(libraryList) {
     const libraryData = libraryList.map(library => {
-        const properties = Object.values(library)[0];
-        let entry = `### ${properties.name}\n\n${properties.description}  \n\n`;
+        let entry = `### ${library.name}\n\n${library.description}  \n\n`;
         
-        if(properties.url) {
-            entry += `🌐 **URL:** ${properties.url}  \n`;
+        if(library.url) {
+            entry += `🌐 **URL:** ${library.url}  \n`;
         }        
-        if(properties.author) {            
-            entry += `👤 **Author:** ${properties.author}  \n`;
+        if(library.author) {            
+            entry += `👤 **Author:** ${library.author}  \n`;
         }
-        if(properties.license) {
-            entry += `📜 **License:** ${properties.license}  \n`;
+        if(library.license) {
+            entry += `📜 **License:** ${library.license}  \n`;
         }
-        if(properties.tags) {
-            entry += `🏷️ **Tags:** ${properties.tags.join(', ')}  \n`;
+        if(library.tags) {
+            entry += `🏷️ **Tags:** ${library.tags.join(', ')}  \n`;
         }
         return entry;
         
