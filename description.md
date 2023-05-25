@@ -1,3 +1,3 @@
-# 🐍 mp-libraries-list
+# 🐍 MicroPython Package Index
 
-A list of useful MicroPython libraries that can be used with the compatible Arduino products.  
+A list of useful MicroPython packages that can be used with the compatible Arduino products.  
