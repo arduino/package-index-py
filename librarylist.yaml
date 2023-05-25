@@ -1,11 +1,43 @@
 ---
 libraries:
+  - BME680-Micropython:
+    name: Micropython Driver for a BME680 breakout
+    url: https://github.com/robert-hh/BME680-Micropython
+    author: Robert Hammelrath
+    description: Micropython Driver for a BME680 breakout. The driver uses the I2C interface.
+    tags: ["sensor"]
+    verification:
+      - fqbn: "arduino:mbed_nano:nanorp2040connect"
+        library_version: null
+        micropython_version: "1.19.1"
+        tester: "arduino"
+  - micropython-my9221:
+    name: MicroPython MY9221
+    author: Mike Causer
+    url: https://github.com/mcauser/micropython-my9221
+    description: A MicroPython library for 10 segment LED bar graph modules using the MY9221 LED driver.
+    tags: ["LED"]
+    verification:
+      - fqbn: "arduino:mbed_nano:nanorp2040connect"
+        library_version: null
+        micropython_version: "1.19.1"
+        tester: "arduino"
   - micropython-rotary:
     name: MicroPython Rotary Encoder Driver
     url: https://github.com/miketeachman/micropython-rotary
     author: miketeachman
     description: MicroPython driver to read a rotary encoder. Works with Pyboard, Raspberry Pi Pico, ESP8266, and ESP32 development boards. This is a robust implementation providing effective debouncing of encoder contacts. It uses two GPIO pins configured to trigger interrupts, ...
     tags: ["encoder"]
+    verification:
+      - fqbn: "arduino:mbed_nano:nanorp2040connect"
+        library_version: null
+        micropython_version: "1.19.1"
+        tester: "arduino"
+  - micropython_servo_pdm:
+    name: Servo PDM Continuous
+    author: Taras Prokofiev
+    url: https://github.com/TTitanUA/micropython_servo_pdm
+    tags: ["servo"]
     verification:
       - fqbn: "arduino:mbed_nano:nanorp2040connect"
         library_version: null
@@ -75,6 +107,17 @@ libraries:
     verification:
       - fqbn: "arduino:mbed_nano:nanorp2040connect"
         library_version: "1.3.0"
+        micropython_version: "1.19.1"
+        tester: "arduino"
+  - MicroPython-Button:
+    name: MicroPython-Button
+    author: Ubi de Feo
+    url: https://github.com/ubidefeo/MicroPython-Button
+    description: An easy to use MicroPython library to handle Buttons and other devices with digital (LOW/HIGH) output.
+    tags: ["input", "button"]
+    verification:
+      - fqbn: "arduino:mbed_nano:nanorp2040connect"
+        library_version: null
         micropython_version: "1.19.1"
         tester: "arduino"
   - micropython-max7219:
