@@ -1,5 +1,17 @@
 ---
 libraries:
+  - arduino-iot-cloud-py:
+    name: Arduino IoT Cloud Python client
+    url: https://github.com/arduino/arduino-iot-cloud-py
+    author: Arduino
+    description: A Python client for the Arduino IoT cloud, which runs on both CPython and MicroPython.
+    tags: ["cloud", "iot"]
+    verification:
+      - fqbn: "arduino:mbed_portenta:envie_m7"
+        library_version: "0.0.7"
+        micropython_version: "1.19.1"
+        tester: "arduino"
+
   - BME680-Micropython:
     name: Micropython Driver for a BME680 breakout
     url: https://github.com/robert-hh/BME680-Micropython
