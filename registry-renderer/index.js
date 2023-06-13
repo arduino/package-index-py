@@ -1,9 +1,9 @@
 import { load } from 'js-yaml';
 import { readFileSync, writeFileSync } from 'fs';
 
-const REGISTRY_FILE_PATH = "../librarylist.yaml";
-const REPO_DESCRIPTION_PATH = "../description.md";
-const TARGET_PATH = "../README.md";
+const REGISTRY_FILE_PATH = "./librarylist.yaml";
+const REPO_DESCRIPTION_PATH = "./description.md";
+const TARGET_PATH = "./README.md";
 
 /**
  * Reads the library list from the YAML file and returns it as a JavaScript object.
@@ -28,21 +28,30 @@ function getMarkdownFromLibraryList(libraryList) {
         let entry = `### ${library.name}\n\n${library.description}  \n\n`;
         
         if(library.url) {
-            entry += `🌐 **URL:** ${library.url}  \n`;
+            entry += `- 🌐 **URL:** ${library.url}  \n`;
         }        
         if(library.author) {            
-            entry += `👤 **Author:** ${library.author}  \n`;
+            entry += `- 👤 **Author:** ${library.author}  \n`;
         }
         if(library.license) {
-            entry += `📜 **License:** ${library.license}  \n`;
+            entry += `- 📜 **License:** ${library.license}  \n`;
         }
         if(library.tags) {
-            entry += `🏷️ **Tags:** ${library.tags.join(', ')}  \n`;
+            entry += `- 🏷️ **Tags:** ${library.tags.join(', ')}  \n`;
+        }
+
+        if(library.verification){
+            entry += "- ✅ **Verification:**\n";
+            let verification = library.verification.map(verification => {
+                const libraryVersion = verification.library_version ? ` v${verification.library_version}` : "";
+                return `    - Verified${libraryVersion} with \`${verification.fqbn}\` on MicroPython v${verification.micropython_version}`;
+            }).join("\n");
+            entry += `${verification}\n`;
         }
         return entry;
         
     }).join("<hr />\n\n");
-    return `## 📚 Libraries\n${libraryData}`;
+    return `## 📦 Packages\n${libraryData}`;
 }
 
 /**
