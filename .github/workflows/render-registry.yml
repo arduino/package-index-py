@@ -17,6 +17,7 @@ jobs:
         run: node ./registry-renderer/index.js
       - name: Commit list
         run: |
+          git --no-pager branch
           git config --global user.name 'Arduino'
           git config --global user.email 'ft.content@arduino.cc'
           git commit -am "Automated rendering of registry" || true
