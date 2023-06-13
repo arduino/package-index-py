@@ -11,8 +11,10 @@ jobs:
           node-version: 14
           cache: "npm"
           cache-dependency-path: "**/package-lock.json"
+      - name: Install dependencies
+        run: cd registry-renderer; npm i
       - name: Render list
-        run: cd registry-renderer; npm i; node index.js
+        run: node ./registry-renderer/index.js
       - name: Commit list
         run: |
           git config --global user.name 'Arduino'

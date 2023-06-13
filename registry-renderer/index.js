@@ -1,9 +1,9 @@
 import { load } from 'js-yaml';
 import { readFileSync, writeFileSync } from 'fs';
 
-const REGISTRY_FILE_PATH = "../librarylist.yaml";
-const REPO_DESCRIPTION_PATH = "../description.md";
-const TARGET_PATH = "../README.md";
+const REGISTRY_FILE_PATH = "./librarylist.yaml";
+const REPO_DESCRIPTION_PATH = "./description.md";
+const TARGET_PATH = "./README.md";
 
 /**
  * Reads the library list from the YAML file and returns it as a JavaScript object.
