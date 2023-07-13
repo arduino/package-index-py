@@ -147,5 +147,5 @@ packages:
     name: Device drivers for IR (infra red) remote controls
     url: https://github.com/peterhinch/micropython_ir
     description: Device drivers for IR (infra red) remote controls
-    license: This repo provides a driver to receive from IR (infra red) remote controls and a driver for IR "blaster" apps.
+    license: MIT license
     tags: ["IR"]
