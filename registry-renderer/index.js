@@ -1,7 +1,7 @@
 import { load } from 'js-yaml';
 import { readFileSync, writeFileSync } from 'fs';
 
-const REGISTRY_FILE_PATH = "./librarylist.yaml";
+const REGISTRY_FILE_PATH = "./package-list.yaml";
 const REPO_DESCRIPTION_PATH = "./description.md";
 const TARGET_PATH = "./README.md";
 
