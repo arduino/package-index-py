@@ -1,5 +1,5 @@
 ---
-libraries:
+packages:
   - arduino-iot-cloud-py:
     name: Arduino IoT Cloud Python client
     url: https://github.com/arduino/arduino-iot-cloud-py
