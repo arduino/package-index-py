@@ -1,8 +1,8 @@
 name: Render Registry
 on: 
-  - push
-  branches:
-    - main
+  push:
+    branches:
+      - main
 jobs:
   render:
     runs-on: ubuntu-latest
