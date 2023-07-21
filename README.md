@@ -63,7 +63,7 @@ Device drivers for IR (infra red) remote controls
 <details><summary>Details</summary>
 <ul>
 <li>🌐 <strong>URL:</strong> https://github.com/peterhinch/micropython_ir</li>
-<li>📜 <strong>License:</strong> This repo provides a driver to receive from IR (infra red) remote controls and a driver for IR "blaster" apps.</li>
+<li>📜 <strong>License:</strong> MIT license</li>
 <li>🏷️ <strong>Tags:</strong> IR</li>
 </ul>
 </details>
