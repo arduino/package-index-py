@@ -152,7 +152,6 @@ packages:
   - HT16K33-Python:
     name: HT16K33 Drivers
     url: https://github.com/smittytone/HT16K33-Python
-    description: Python drivers for the Holtek HT16K33 controller chip and various display devices based upon it, such as the Adafruit 0.8-inch 8x16 LED Matrix FeatherWing and the Raspberry Pi Pico.
-The drivers supports both CircuitPython and MicroPython applications. They communicate using I²C.
+    description: Python drivers for the Holtek HT16K33 controller chip and various display devices based upon it, such as the Adafruit 0.8-inch 8x16 LED Matrix FeatherWing and the Raspberry Pi Pico. The drivers supports both CircuitPython and MicroPython applications. They communicate using I²C.
     tags: ["LED", "matrix", "segment", "adafruit"]
     license: Licensed under the MIT License.
