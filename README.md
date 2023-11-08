@@ -70,6 +70,25 @@ Device drivers for IR (infra red) remote controls
 
 <hr />
 
+### [HT16K33 Drivers](https://github.com/smittytone/HT16K33-Python)
+
+Python drivers for the Holtek HT16K33 controller chip and various display devices based upon it, such as the Adafruit 0.8-inch 8x16 LED Matrix FeatherWing and the Raspberry Pi Pico. The drivers supports both CircuitPython and MicroPython applications. They communicate using I²C.  
+
+<details><summary>Details</summary>
+<ul>
+<li>🌐 <strong>URL:</strong> https://github.com/smittytone/HT16K33-Python</li>
+<li>📜 <strong>License:</strong> Licensed under the MIT License.</li>
+<li>🏷️ <strong>Tags:</strong> LED, matrix, segment, adafruit</li>
+<li>✅ <strong>Verification:</strong>
+<ul>
+<li>Verified v3.4.2 with <code>arduino:esp32:nano_nora</code> on MicroPython v1.20.0</li>
+<li>Verified v3.4.2 with <code>esp32:esp32:esp32s3</code> on MicroPython v1.20.0</li>
+</ul></li>
+</ul>
+</details>
+
+<hr />
+
 ### [Library for Raspberry Pi Pico](https://github.com/blaz-r/pi_pico_neopixel)
 
 a library for using ws2812b and sk6812 leds (aka neopixels) with Raspberry Pi Pico  
