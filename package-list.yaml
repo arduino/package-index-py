@@ -164,3 +164,10 @@ packages:
         library_version: "3.4.2"
         micropython_version: "1.20.0"
         tester: "arduino"
+  - ucPack-mpy:
+    name: ucPack MicroPython library
+    url: https://github.com/arduino/ucPack-mpy
+    author: Arduino, Giovanni di Dio Bruno, Lucio Rossi
+    description: A MicroPython porting of ucPack library.
+    tags: ["communication"]
+    license: Licensed under MPL2.0.
