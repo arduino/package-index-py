@@ -324,3 +324,18 @@ Python code for talking to HD44780 compatible character based dot matrix LCDs.
 </ul>
 </details>
 
+<hr />
+
+### [ucPack MicroPython library](https://github.com/arduino/ucPack-mpy)
+
+A MicroPython porting of ucPack library.  
+
+<details><summary>Details</summary>
+<ul>
+<li>🌐 <strong>URL:</strong> https://github.com/arduino/ucPack-mpy</li>
+<li>👤 <strong>Author:</strong> Arduino, Giovanni di Dio Bruno, Lucio Rossi</li>
+<li>📜 <strong>License:</strong> Licensed under MPL2.0.</li>
+<li>🏷️ <strong>Tags:</strong> communication</li>
+</ul>
+</details>
+
