@@ -1,7 +1,6 @@
 ---
 packages:
-  - arduino-iot-cloud-py:
-    name: Arduino IoT Cloud Python client
+  - name: arduino-iot-cloud-py
     url: https://github.com/arduino/arduino-iot-cloud-py
     author: Arduino
     description: A Python client for the Arduino IoT cloud, which runs on both CPython and MicroPython.
@@ -12,8 +11,7 @@ packages:
         micropython_version: "1.19.1"
         tester: "arduino"
 
-  - BME680-Micropython:
-    name: Micropython Driver for a BME680 breakout
+  - name: BME680-Micropython
     url: https://github.com/robert-hh/BME680-Micropython
     author: Robert Hammelrath
     description: Micropython Driver for a BME680 breakout. The driver uses the I2C interface.
@@ -23,8 +21,7 @@ packages:
         library_version: null
         micropython_version: "1.19.1"
         tester: "arduino"
-  - micropython-my9221:
-    name: MicroPython MY9221
+  - name: micropython-my9221
     author: Mike Causer
     url: https://github.com/mcauser/micropython-my9221
     description: A MicroPython library for 10 segment LED bar graph modules using the MY9221 LED driver.
@@ -34,8 +31,7 @@ packages:
         library_version: null
         micropython_version: "1.19.1"
         tester: "arduino"
-  - micropython-rotary:
-    name: MicroPython Rotary Encoder Driver
+  - name: micropython-rotary
     url: https://github.com/miketeachman/micropython-rotary
     author: miketeachman
     description: MicroPython driver to read a rotary encoder. Works with Pyboard, Raspberry Pi Pico, ESP8266, and ESP32 development boards. This is a robust implementation providing effective debouncing of encoder contacts. It uses two GPIO pins configured to trigger interrupts, ...
@@ -45,8 +41,7 @@ packages:
         library_version: null
         micropython_version: "1.19.1"
         tester: "arduino"
-  - micropython_servo_pdm:
-    name: Servo PDM Continuous
+  - name: micropython_servo_pdm
     author: Taras Prokofiev
     url: https://github.com/TTitanUA/micropython_servo_pdm
     tags: ["servo"]
@@ -55,29 +50,24 @@ packages:
         library_version: null
         micropython_version: "1.19.1"
         tester: "arduino"
-  - lcd:
-    name: lcd_api and i2c_lcd
+  - name: lcd
     url: https://github.com/dhylands/python_lcd/
     description: Python code for talking to HD44780 compatible character based dot matrix LCDs.
     license: MIT license; Copyright (c) 2013 Dave Hylands
     tags: ["display", "LCD"]
-  - picoservo:
-    name: Picoservo
+  - name: picoservo
     url: https://github.com/sandbo00/picoservo
     description: A simple class for controlling a 9g servo with the Raspberry Pi Pico.
     tags: ["servo"]
-  - micropython-DS3231-AT24C32:
-    name: MicroPython driver for DS3231 RTC and AT24C32 EEPROM module.
+  - name: micropython-DS3231-AT24C32
     url: https://github.com/pangopi/micropython-DS3231-AT24C32
     description: MicroPython driver for DS3231 RTC and AT24C32 EEPROM module.
     tags: ["time", "RTC"]
-  - micropython_ahtx0:
-    name: AHT10 and AHT20 temperature and humidity sensors
+  - name: micropython_ahtx0
     url: https://github.com/targetblank/micropython_ahtx0
     description: MicroPython driver for the AHT10 and AHT20 temperature and humidity sensors.
     tags: ["sensors", "temperature", "humidity"]
-  - micropython-dfplayer:
-    name: DFPlayer control using UART 1
+  - name: micropython-dfplayer
     url: https://github.com/ubidefeo/micropython-dfplayer
     description: Micropython implementation of DFPlayer control over UART
     tags: ["audio", "mp3"]
@@ -86,33 +76,27 @@ packages:
         library_version: null
         micropython_version: "1.19.1"
         tester: "arduino"
-  - MAX30102-MicroPython-driver:
-    name: Maxim MAX30102 MicroPython driver
+  - name: MAX30102-MicroPython-driver
     url: https://github.com/n-elia/MAX30102-MicroPython-driver
     description: A port of the SparkFun driver for Maxim MAX30102 sensor to MicroPython.
     tags: ["sensors"]
-  - micropython-i2c-lcd:
-    name: MicroPython I2C 16x2 LCD Screen (monochrome and RGB)
+  - name: micropython-i2c-lcd
     url: https://github.com/ubidefeo/micropython-i2c-lcd
     description: This library is designed to support a MicroPython interface for i2c LCD character screens. It is designed around the Pycom implementation of MicroPython
     tags: ["display", "LCD", "RGB"]
-  - sh1107-micropython:
-    name: SH1107 based OLED display
+  - name: sh1107-micropython
     url: https://github.com/nemart69/sh1107-micropython
     description: Micropython driver for SH1107-based OLED display (64 x 128)
     tags: ["display", "OLED"]
-  - pi_pico_neopixel:
-    name: Library for Raspberry Pi Pico
+  - name: pi_pico_neopixel
     url: https://github.com/blaz-r/pi_pico_neopixel
     description: a library for using ws2812b and sk6812 leds (aka neopixels) with Raspberry Pi Pico
     tags: ["LED"]
-  - micropython-thermal-printer:
-    name: MicroPython Thermal Printer
+  - name: micropython-thermal-printer
     url: https://github.com/ayoy/micropython-thermal-printer
     description: This is the MicroPython port of Python Thermal Printer by Adafruit
     tags: ["printer"]
-  - micropython-tm1637:
-    name: MicroPython TM1637
+  - name: micropython-tm1637
     url: https://github.com/mcauser/micropython-tm1637
     description: A MicroPython library for quad 7-segment LED display modules using the TM1637 LED driver. For example, the Grove - 4 Digit Display module http://wiki.seeed.cc/Grove-4-Digit_Display/
     tags: ["display"]
@@ -121,8 +105,7 @@ packages:
         library_version: "1.3.0"
         micropython_version: "1.19.1"
         tester: "arduino"
-  - MicroPython-Button:
-    name: MicroPython-Button
+  - name: MicroPython-Button
     author: Ubi de Feo
     url: https://github.com/ubidefeo/MicroPython-Button
     description: An easy to use MicroPython library to handle Buttons and other devices with digital (LOW/HIGH) output.
@@ -132,25 +115,21 @@ packages:
         library_version: null
         micropython_version: "1.19.1"
         tester: "arduino"
-  - micropython-max7219:
-    name: MicroPython MAX7219 8x8 LED Matrix
+  - name: micropython-max7219
     url: https://github.com/mcauser/micropython-max7219
     description: A MicroPython library for the MAX7219 8x8 LED matrix driver, SPI interface, supports cascading and uses framebuf
     tags: ["LED", "matrix"]
     license: Licensed under the MIT License.
-  - micropython-PressureTemp:
-    name: Pressure/temp sensor
+  - name: micropython-PressureTemp
     url: https://github.com/RuiSantosdotme/ESP-MicroPython
     description: Adafruit BME280 Library, a library for the Adafruit BME280 Humidity, Barometric Pressure + Temp sensor.
     tags: ["pressure", "temperature"]
-  - micropython-IR:
-    name: Device drivers for IR (infra red) remote controls
+  - name: micropython-IR
     url: https://github.com/peterhinch/micropython_ir
     description: Device drivers for IR (infra red) remote controls
     license: MIT license
     tags: ["IR"]
-  - HT16K33-Python:
-    name: HT16K33 Drivers
+  - name: HT16K33-Python
     url: https://github.com/smittytone/HT16K33-Python
     description: Python drivers for the Holtek HT16K33 controller chip and various display devices based upon it, such as the Adafruit 0.8-inch 8x16 LED Matrix FeatherWing and the Raspberry Pi Pico. The drivers supports both CircuitPython and MicroPython applications. They communicate using I²C.
     tags: ["LED", "matrix", "segment", "adafruit"]
@@ -164,8 +143,7 @@ packages:
         library_version: "3.4.2"
         micropython_version: "1.20.0"
         tester: "arduino"
-  - ucPack-mpy:
-    name: ucPack MicroPython library
+  - name: ucPack-mpy
     url: https://github.com/arduino/ucPack-mpy
     author: Arduino, Giovanni di Dio Bruno, Lucio Rossi
     description: A MicroPython porting of ucPack library.
