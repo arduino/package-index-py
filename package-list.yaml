@@ -31,6 +31,8 @@ packages:
         library_version: null
         micropython_version: "1.19.1"
         tester: "arduino"
+    files:
+      - "github:mcauser/micropython-my9221/my9221.py"
   - name: micropython-rotary
     url: https://github.com/miketeachman/micropython-rotary
     author: miketeachman
