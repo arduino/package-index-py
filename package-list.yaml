@@ -1,5 +1,10 @@
 ---
 packages:
+  - name: micropython-modbus
+    url: https://github.com/brainelectronics/micropython-modbus
+    author: brainelectronics
+    description: MicroPython ModBus TCP and RTU library supporting client and host mode
+    tags: ["modbus"]
   - name: arduino-iot-cloud-py
     url: https://github.com/arduino/arduino-iot-cloud-py
     author: Arduino
