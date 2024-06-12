@@ -192,6 +192,20 @@ A MicroPython library for the MAX7219 8x8 LED matrix driver, SPI interface, supp
 
 <hr />
 
+### [micropython-modbus](https://github.com/brainelectronics/micropython-modbus)
+
+MicroPython ModBus TCP and RTU library supporting client and host mode  
+
+<details><summary>Details</summary>
+<ul>
+<li>🌐 <strong>URL:</strong> https://github.com/brainelectronics/micropython-modbus</li>
+<li>👤 <strong>Author:</strong> brainelectronics</li>
+<li>🏷️ <strong>Tags:</strong> modbus</li>
+</ul>
+</details>
+
+<hr />
+
 ### [micropython-my9221](https://github.com/mcauser/micropython-my9221)
 
 A MicroPython library for 10 segment LED bar graph modules using the MY9221 LED driver.  
