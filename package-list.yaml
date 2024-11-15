@@ -31,6 +31,9 @@ packages:
     url: https://github.com/mcauser/micropython-my9221
     description: A MicroPython library for 10 segment LED bar graph modules using the MY9221 LED driver.
     tags: ["LED"]
+    package_descriptor:
+      urls:
+        - [micropython-my9221/my9221.py, github:mcauser/micropython-my9221/my9221.py]
     verification:
       - fqbn: "arduino:mbed_nano:nanorp2040connect"
         library_version: null
