@@ -1,233 +1,257 @@
 ---
 packages:
   - name: aioespnow
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/aioespnow
     index: https://micropython.org/pi/v2
     description: Extends the micropython espnow module with methods to support asyncio.
   - name: aiorepl
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/aiorepl
     index: https://micropython.org/pi/v2
     description: >-
       Provides an asynchronous REPL that can run concurrently with an asyncio,
       also allowing await expressions.
   - name: aioble
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/bluetooth/aioble
     index: https://micropython.org/pi/v2
   - name: aioble-central
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/bluetooth/aioble-central
     index: https://micropython.org/pi/v2
   - name: aioble-client
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/bluetooth/aioble-client
     index: https://micropython.org/pi/v2
   - name: aioble-core
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/bluetooth/aioble-core
     index: https://micropython.org/pi/v2
   - name: aioble-l2cap
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/bluetooth/aioble-l2cap
     index: https://micropython.org/pi/v2
   - name: aioble-peripheral
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/bluetooth/aioble-peripheral
     index: https://micropython.org/pi/v2
   - name: aioble-security
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/bluetooth/aioble-security
     index: https://micropython.org/pi/v2
   - name: aioble-server
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/bluetooth/aioble-server
     index: https://micropython.org/pi/v2
   - name: bundle-networking
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/bundles/bundle-networking
     index: https://micropython.org/pi/v2
     description: >-
       Common networking packages for all network-capable deployments of
       MicroPython.
   - name: onewire
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/bus/onewire
     index: https://micropython.org/pi/v2
     description: Onewire driver.
   - name: wm8960
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/codec/wm8960
     index: https://micropython.org/pi/v2
     description: WM8960 codec.
   - name: lcd160cr
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/display/lcd160cr
     index: https://micropython.org/pi/v2
     description: LCD160CR driver.
   - name: ssd1306
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/display/ssd1306
     index: https://micropython.org/pi/v2
     description: SSD1306 OLED driver.
   - name: bmi270
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/imu/bmi270
     index: https://micropython.org/pi/v2
     description: BOSCH BMI270 IMU driver.
   - name: bmm150
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/imu/bmm150
     index: https://micropython.org/pi/v2
     description: BOSCH BMM150 magnetometer driver.
   - name: lsm6dsox
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/imu/lsm6dsox
     index: https://micropython.org/pi/v2
     description: ST LSM6DSOX imu driver.
   - name: lsm9ds1
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/imu/lsm9ds1
     index: https://micropython.org/pi/v2
     description: Driver for ST LSM9DS1 IMU.
   - name: neopixel
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/led/neopixel
     index: https://micropython.org/pi/v2
     description: WS2812/NeoPixel driver.
   - name: nrf24l01
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/radio/nrf24l01
     index: https://micropython.org/pi/v2
     description: nrf24l01 2.4GHz radio driver.
   - name: dht
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/sensor/dht
     index: https://micropython.org/pi/v2
     description: DHT11 & DHT22 temperature/humidity sensor driver.
   - name: ds18x20
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/sensor/ds18x20
     index: https://micropython.org/pi/v2
     description: DS18x20 temperature sensor driver.
   - name: hs3003
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/sensor/hs3003
     index: https://micropython.org/pi/v2
     description: Renesas HS3003 Humidity and Temperature sensor driver.
   - name: hts221
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/sensor/hts221
     index: https://micropython.org/pi/v2
     description: HTS221 temperature/humidity sensor driver.
   - name: lps22h
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/sensor/lps22h
     index: https://micropython.org/pi/v2
     description: LPS22H temperature/pressure sensor driver.
   - name: mhz19
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/sensor/mhz19
     index: https://micropython.org/pi/v2
     description: Driver for MH-Z19 CO2 sensor.
   - name: sdcard
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/storage/sdcard
     index: https://micropython.org/pi/v2
     description: SDCard block device driver.
   - name: espflash
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/espflash
     index: https://micropython.org/pi/v2
     description: Provides a minimal ESP32 bootloader protocol implementation.
   - name: lora
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/lora/lora
     index: https://micropython.org/pi/v2
   - name: lora-async
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/lora/lora-async
     index: https://micropython.org/pi/v2
   - name: lora-stm32wl5
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/lora/lora-stm32wl5
     index: https://micropython.org/pi/v2
   - name: lora-sx126x
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/lora/lora-sx126x
     index: https://micropython.org/pi/v2
   - name: lora-sx127x
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/lora/lora-sx127x
     index: https://micropython.org/pi/v2
   - name: lora-sync
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/lora/lora-sync
     index: https://micropython.org/pi/v2
   - name: mip
-    url: https://github.com/micropython/micropython-lib/tree/master/micropython/mip
+    docs: https://github.com/micropython/micropython-lib/tree/master/micropython/mip
     index: https://micropython.org/pi/v2
     description: On-device package installer for network-capable boards
   - name: mip-cmdline
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/mip-cmdline
     index: https://micropython.org/pi/v2
     description: Optional support for running `micropython -m mip`
   - name: ntptime
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/net/ntptime
     index: https://micropython.org/pi/v2
     description: NTP client.
   - name: webrepl
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/net/webrepl
     index: https://micropython.org/pi/v2
     description: WebREPL server.
   - name: senml
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/senml
     index: https://micropython.org/pi/v2
     description: SenML serialisation for MicroPython.
   - name: uaiohttpclient
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/uaiohttpclient
     index: https://micropython.org/pi/v2
-    description: HTTP client module for MicroPython uasyncio module
+    description: HTTP client module for MicroPython asyncio module
   - name: ucontextlib
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/ucontextlib
     index: https://micropython.org/pi/v2
     description: Minimal subset of contextlib for MicroPython low-memory ports
   - name: udnspkt
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/udnspkt
     index: https://micropython.org/pi/v2
     description: Make and parse DNS packets (Sans I/O approach).
   - name: umqtt.robust
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/umqtt.robust
     index: https://micropython.org/pi/v2
   - name: umqtt.simple
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/umqtt.simple
     index: https://micropython.org/pi/v2
     description: Lightweight MQTT client for MicroPython.
   - name: upysh
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/upysh
     index: https://micropython.org/pi/v2
     description: Minimalistic file shell using native Python syntax.
   - name: urequests
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/urequests
     index: https://micropython.org/pi/v2
   - name: urllib.urequest
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/urllib.urequest
     index: https://micropython.org/pi/v2
+  - name: usb-device
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/micropython/usb/usb-device
+    index: https://micropython.org/pi/v2
+  - name: usb-device-cdc
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/micropython/usb/usb-device-cdc
+    index: https://micropython.org/pi/v2
+  - name: usb-device-hid
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/micropython/usb/usb-device-hid
+    index: https://micropython.org/pi/v2
+  - name: usb-device-keyboard
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/micropython/usb/usb-device-keyboard
+    index: https://micropython.org/pi/v2
+  - name: usb-device-midi
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/micropython/usb/usb-device-midi
+    index: https://micropython.org/pi/v2
+  - name: usb-device-mouse
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/micropython/usb/usb-device-mouse
+    index: https://micropython.org/pi/v2
   - name: xmltok
-    url: >-
+    docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/xmltok
     index: https://micropython.org/pi/v2
     description: Simple XML tokenizer
