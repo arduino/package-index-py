@@ -10,6 +10,7 @@ packages:
     author: Arduino
     description: A Python client for the Arduino IoT cloud, which runs on both CPython and MicroPython.
     tags: ["cloud", "iot"]
+    required_runtime: ">=1.22.0"
     verification:
       - fqbn: "arduino:mbed_portenta:envie_m7"
         library_version: "0.0.7"
