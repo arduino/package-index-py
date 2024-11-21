@@ -94,6 +94,20 @@ A Python client for the Arduino IoT cloud, which runs on both CPython and MicroP
 
 <hr />
 
+### [arduino-modulino-mpy](https://github.com/arduino/arduino-modulino-mpy)
+
+A MicroPython library to control Arduino Modulinos.  
+
+<details><summary>Details</summary>
+<ul>
+<li>🌐 <strong>URL:</strong> https://github.com/arduino/arduino-modulino-mpy</li>
+<li>👤 <strong>Author:</strong> Arduino, Sebastian Romero</li>
+<li>🏷️ <strong>Tags:</strong> sensors, actuators</li>
+</ul>
+</details>
+
+<hr />
+
 ### [lcd](https://github.com/dhylands/python_lcd/)
 
 Python code for talking to HD44780 compatible character based dot matrix LCDs.  
