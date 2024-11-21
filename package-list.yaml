@@ -1,5 +1,11 @@
 ---
 packages:
+  - name: arduino-modulino-mpy
+    url: https://github.com/arduino/arduino-modulino-mpy
+    author: Arduino, Sebastian Romero
+    description: A MicroPython library to control Arduino Modulinos.
+    docs: https://github.com/arduino/arduino-modulino-mpy/blob/main/docs/api.md
+    tags: ["sensors", "actuators"]
   - name: micropython-modbus
     url: https://github.com/brainelectronics/micropython-modbus
     author: brainelectronics
