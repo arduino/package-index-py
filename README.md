@@ -76,6 +76,19 @@ An easy to use MicroPython library to handle Buttons and other devices with digi
 
 <hr />
 
+### [SH1106](https://github.com/robert-hh/SH1106)
+
+MicroPython driver for the SH1106 OLED controller  
+
+<details><summary>Details</summary>
+<ul>
+<li>🌐 <strong>URL:</strong> https://github.com/robert-hh/SH1106</li>
+<li>🏷️ <strong>Tags:</strong> display, OLED</li>
+</ul>
+</details>
+
+<hr />
+
 ### [arduino-iot-cloud-py](https://github.com/arduino/arduino-iot-cloud-py)
 
 A Python client for the Arduino IoT cloud, which runs on both CPython and MicroPython.  
@@ -103,6 +116,32 @@ A MicroPython library to control Arduino Modulinos.
 <li>🌐 <strong>URL:</strong> https://github.com/arduino/arduino-modulino-mpy</li>
 <li>👤 <strong>Author:</strong> Arduino, Sebastian Romero</li>
 <li>🏷️ <strong>Tags:</strong> sensors, actuators</li>
+</ul>
+</details>
+
+<hr />
+
+### [ir_rx](https://github.com/peterhinch/micropython_ir/ir_rx)
+
+A MicroPython driver for IR (infra red) remote controls receivers  
+
+<details><summary>Details</summary>
+<ul>
+<li>🌐 <strong>URL:</strong> https://github.com/peterhinch/micropython_ir/ir_rx</li>
+<li>🏷️ <strong>Tags:</strong> IR</li>
+</ul>
+</details>
+
+<hr />
+
+### [ir_tx](https://github.com/peterhinch/micropython_ir/ir_tx)
+
+A MicroPython driver for IR (infra red) remote controls transmitters  
+
+<details><summary>Details</summary>
+<ul>
+<li>🌐 <strong>URL:</strong> https://github.com/peterhinch/micropython_ir/ir_tx</li>
+<li>🏷️ <strong>Tags:</strong> IR</li>
 </ul>
 </details>
 
@@ -187,6 +226,19 @@ This library is designed to support a MicroPython interface for i2c LCD characte
 <ul>
 <li>🌐 <strong>URL:</strong> https://github.com/ubidefeo/micropython-i2c-lcd</li>
 <li>🏷️ <strong>Tags:</strong> display, LCD, RGB</li>
+</ul>
+</details>
+
+<hr />
+
+### [micropython-i2c-lcd-monochrome](https://github.com/brainelectronics/micropython-i2c-lcd)
+
+Micropython package to control HD44780 LCD displays 1602 and 2004 via I2C  
+
+<details><summary>Details</summary>
+<ul>
+<li>🌐 <strong>URL:</strong> https://github.com/brainelectronics/micropython-i2c-lcd</li>
+<li>📜 <strong>License:</strong> MIT</li>
 </ul>
 </details>
 
