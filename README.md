@@ -121,32 +121,6 @@ A MicroPython library to control Arduino Modulinos.
 
 <hr />
 
-### [ir_rx](https://github.com/peterhinch/micropython_ir/ir_rx)
-
-A MicroPython driver for IR (infra red) remote controls receivers  
-
-<details><summary>Details</summary>
-<ul>
-<li>🌐 <strong>URL:</strong> https://github.com/peterhinch/micropython_ir/ir_rx</li>
-<li>🏷️ <strong>Tags:</strong> IR</li>
-</ul>
-</details>
-
-<hr />
-
-### [ir_tx](https://github.com/peterhinch/micropython_ir/ir_tx)
-
-A MicroPython driver for IR (infra red) remote controls transmitters  
-
-<details><summary>Details</summary>
-<ul>
-<li>🌐 <strong>URL:</strong> https://github.com/peterhinch/micropython_ir/ir_tx</li>
-<li>🏷️ <strong>Tags:</strong> IR</li>
-</ul>
-</details>
-
-<hr />
-
 ### [lcd](https://github.com/dhylands/python_lcd/)
 
 Python code for talking to HD44780 compatible character based dot matrix LCDs.  
@@ -169,20 +143,6 @@ MicroPython driver for DS3231 RTC and AT24C32 EEPROM module.
 <ul>
 <li>🌐 <strong>URL:</strong> https://github.com/pangopi/micropython-DS3231-AT24C32</li>
 <li>🏷️ <strong>Tags:</strong> time, RTC</li>
-</ul>
-</details>
-
-<hr />
-
-### [micropython-IR](https://github.com/peterhinch/micropython_ir)
-
-Device drivers for IR (infra red) remote controls  
-
-<details><summary>Details</summary>
-<ul>
-<li>🌐 <strong>URL:</strong> https://github.com/peterhinch/micropython_ir</li>
-<li>📜 <strong>License:</strong> MIT license</li>
-<li>🏷️ <strong>Tags:</strong> IR</li>
 </ul>
 </details>
 
@@ -239,6 +199,34 @@ Micropython package to control HD44780 LCD displays 1602 and 2004 via I2C
 <ul>
 <li>🌐 <strong>URL:</strong> https://github.com/brainelectronics/micropython-i2c-lcd</li>
 <li>📜 <strong>License:</strong> MIT</li>
+</ul>
+</details>
+
+<hr />
+
+### [micropython-ir-rx](https://github.com/peterhinch/micropython_ir/ir_rx)
+
+Nonblocking device drivers to receive from IR (infra red) remotes.  
+
+<details><summary>Details</summary>
+<ul>
+<li>🌐 <strong>URL:</strong> https://github.com/peterhinch/micropython_ir/ir_rx</li>
+<li>📜 <strong>License:</strong> MIT</li>
+<li>🏷️ <strong>Tags:</strong> IR</li>
+</ul>
+</details>
+
+<hr />
+
+### [micropython-ir-tx](https://github.com/peterhinch/micropython_ir/ir_tx)
+
+Nonblocking device drivers for IR (infra red) blaster apps.  
+
+<details><summary>Details</summary>
+<ul>
+<li>🌐 <strong>URL:</strong> https://github.com/peterhinch/micropython_ir/ir_tx</li>
+<li>📜 <strong>License:</strong> MIT</li>
+<li>🏷️ <strong>Tags:</strong> IR</li>
 </ul>
 </details>
 
