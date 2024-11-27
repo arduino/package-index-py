@@ -117,14 +117,16 @@ packages:
     package_descriptor:
       urls:
         - [sh1106.py, github:robert-hh/SH1106/sh1106.py]
-  - name: ir_rx
+  - name: micropython-ir-rx
     url: https://github.com/peterhinch/micropython_ir/ir_rx
-    description: A MicroPython driver for IR (infra red) remote controls receivers
+    description: Nonblocking device drivers to receive from IR (infra red) remotes.
     tags: ["IR"]
-  - name: ir_tx
+    license: MIT
+  - name: micropython-ir-tx
     url: https://github.com/peterhinch/micropython_ir/ir_tx
-    description: A MicroPython driver for IR (infra red) remote controls transmitters
+    description: Nonblocking device drivers for IR (infra red) blaster apps.
     tags: ["IR"]
+    license: MIT
   - name: pi_pico_neopixel
     url: https://github.com/blaz-r/pi_pico_neopixel
     description: a library for using ws2812b and sk6812 leds (aka neopixels) with Raspberry Pi Pico
@@ -161,11 +163,6 @@ packages:
     url: https://github.com/RuiSantosdotme/ESP-MicroPython
     description: Adafruit BME280 Library, a library for the Adafruit BME280 Humidity, Barometric Pressure + Temp sensor.
     tags: ["pressure", "temperature"]
-  - name: micropython-IR
-    url: https://github.com/peterhinch/micropython_ir
-    description: Device drivers for IR (infra red) remote controls
-    license: MIT license
-    tags: ["IR"]
   - name: HT16K33-Python
     url: https://github.com/smittytone/HT16K33-Python
     description: Python drivers for the Holtek HT16K33 controller chip and various display devices based upon it, such as the Adafruit 0.8-inch 8x16 LED Matrix FeatherWing and the Raspberry Pi Pico. The drivers supports both CircuitPython and MicroPython applications. They communicate using I²C.
