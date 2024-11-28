@@ -31,7 +31,7 @@ packages:
     package_descriptor:
       urls:
         - [bme680.py, github:robert-hh/BME680-Micropython/bme680.py]
-        - [bme680i.py, github:robert-hh/BME680-Micropython/bme680.py]
+        - [bme680i.py, github:robert-hh/BME680-Micropython/bme680i.py]
     verification:
       - fqbn: "arduino:mbed_nano:nanorp2040connect"
         library_version: null
