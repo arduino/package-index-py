@@ -28,6 +28,10 @@ packages:
     author: Robert Hammelrath
     description: Micropython Driver for a BME680 breakout. The driver uses the I2C interface.
     tags: ["sensor"]
+    package_descriptor:
+      urls:
+        - [bme680.py, github:robert-hh/BME680-Micropython/bme680.py]
+        - [bme680i.py, github:robert-hh/BME680-Micropython/bme680.py]
     verification:
       - fqbn: "arduino:mbed_nano:nanorp2040connect"
         library_version: null
@@ -60,6 +64,13 @@ packages:
     author: Taras Prokofiev
     url: https://github.com/TTitanUA/micropython_servo_pdm
     tags: ["servo"]
+    package_descriptor:
+      urls:
+        - [micropython_servo_pdm/servo_pdm.py, github:TTitanUA/micropython_servo_pdm/micropython_servo_pdm/__init__.py]
+        - [micropython_servo_pdm/servo_pdm.py, github:TTitanUA/micropython_servo_pdm/micropython_servo_pdm/servo_pdm.py]
+        - [micropython_servo_pdm/servo_pdm_rp2.py, github:TTitanUA/micropython_servo_pdm/micropython_servo_pdm/servo_pdm_rp2.py]
+        - [micropython_servo_pdm/smooth_servo_simple.py, github:TTitanUA/micropython_servo_pdm/micropython_servo_pdm/smooth_servo_simple.py]
+        - [micropython_servo_pdm/version.py, github:TTitanUA/micropython_servo_pdm/micropython_servo_pdm/version.py]
     verification:
       - fqbn: "arduino:mbed_nano:nanorp2040connect"
         library_version: null
@@ -81,10 +92,16 @@ packages:
     url: https://github.com/pangopi/micropython-DS3231-AT24C32
     description: MicroPython driver for DS3231 RTC and AT24C32 EEPROM module.
     tags: ["time", "RTC"]
+    package_descriptor:
+      urls:
+        - [ds3231.py, github:pangopi/micropython-DS3231-AT24C32/ds3231.py]
   - name: micropython_ahtx0
     url: https://github.com/targetblank/micropython_ahtx0
     description: MicroPython driver for the AHT10 and AHT20 temperature and humidity sensors.
     tags: ["sensors", "temperature", "humidity"]
+    package_descriptor:
+      urls:
+        - [ahtx0.py, github:targetblank/micropython_ahtx0/ahtx0.py]
   - name: micropython-dfplayer
     url: https://github.com/ubidefeo/micropython-dfplayer
     description: Micropython implementation of DFPlayer control over UART
@@ -110,6 +127,9 @@ packages:
     url: https://github.com/nemart69/sh1107-micropython
     description: Micropython driver for SH1107-based OLED display (64 x 128)
     tags: ["display", "OLED"]
+    package_descriptor:
+      urls:
+        - [sh1107.py, github:nemart69/sh1107-micropython/sh1107.py]
   - name: SH1106
     url: https://github.com/robert-hh/SH1106
     description: MicroPython driver for the SH1106 OLED controller
@@ -131,10 +151,16 @@ packages:
     url: https://github.com/blaz-r/pi_pico_neopixel
     description: a library for using ws2812b and sk6812 leds (aka neopixels) with Raspberry Pi Pico
     tags: ["LED"]
+    package_descriptor:
+      urls:
+        - [neopixel.py, github:blaz-r/pi_pico_neopixel/neopixel.py]
   - name: micropython-thermal-printer
     url: https://github.com/ayoy/micropython-thermal-printer
     description: This is the MicroPython port of Python Thermal Printer by Adafruit
     tags: ["printer"]
+    package_descriptor:
+      urls:
+        - [Adafruit_Thermal.py, github:ayoy/micropython-thermal-printer/Adafruit_Thermal.py]
   - name: micropython-tm1637
     url: https://github.com/mcauser/micropython-tm1637
     description: A MicroPython library for quad 7-segment LED display modules using the TM1637 LED driver. For example, the Grove - 4 Digit Display module http://wiki.seeed.cc/Grove-4-Digit_Display/
@@ -159,10 +185,17 @@ packages:
     description: A MicroPython library for the MAX7219 8x8 LED matrix driver, SPI interface, supports cascading and uses framebuf
     tags: ["LED", "matrix"]
     license: Licensed under the MIT License.
-  - name: micropython-PressureTemp
-    url: https://github.com/RuiSantosdotme/ESP-MicroPython
-    description: Adafruit BME280 Library, a library for the Adafruit BME280 Humidity, Barometric Pressure + Temp sensor.
-    tags: ["pressure", "temperature"]
+    package_descriptor:
+      urls:
+        - [max7219.py, github:mcauser/micropython-max7219/max7219.py]
+  - name: BME280
+    url: https://github.com/robert-hh/BME280
+    description: Micropython driver for the BME280 sensor, target platform Pycom devices
+    tags: ["pressure", "temperature", "humidity"]
+    package_descriptor:
+      urls:
+        - [bme280_int.py, github:robert-hh/BME280/bme280_int.py]
+        - [bme280_float.py, github:robert-hh/BME280/bme280_float.py]
   - name: HT16K33-Python
     url: https://github.com/smittytone/HT16K33-Python
     description: Python drivers for the Holtek HT16K33 controller chip and various display devices based upon it, such as the Adafruit 0.8-inch 8x16 LED Matrix FeatherWing and the Raspberry Pi Pico. The drivers supports both CircuitPython and MicroPython applications. They communicate using I²C.
