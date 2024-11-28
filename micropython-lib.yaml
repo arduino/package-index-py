@@ -336,11 +336,6 @@ packages:
       https://github.com/micropython/micropython-lib/tree/master/python-ecosys/requests
     index: https://micropython.org/pi/v2
     author: MicroPython
-  - name: __future__
-    docs: >-
-      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/__future__
-    index: https://micropython.org/pi/v2
-    author: MicroPython
   - name: abc
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/python-stdlib/abc
@@ -652,18 +647,6 @@ packages:
     index: https://micropython.org/pi/v2
     author: MicroPython
     description: Compression and decompression using the deflate algorithm
-  - name: _libc
-    docs: https://github.com/micropython/micropython-lib/tree/master/unix-ffi/_libc
-    index: https://micropython.org/pi/v2
-    author: MicroPython
-    description: >-
-      MicroPython FFI helper module (deprecated, replaced by
-      micropython-ffilib).
-  - name: _markupbase
-    docs: >-
-      https://github.com/micropython/micropython-lib/tree/master/unix-ffi/_markupbase
-    index: https://micropython.org/pi/v2
-    author: MicroPython
   - name: cgi
     docs: https://github.com/micropython/micropython-lib/tree/master/unix-ffi/cgi
     index: https://micropython.org/pi/v2
