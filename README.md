@@ -8,6 +8,19 @@ Please read the [contribution guidelines](./CONTRIBUTING.md) to learn how to add
 
 
 ## 📦 Packages
+### [BME280](https://github.com/robert-hh/BME280)
+
+Micropython driver for the BME280 sensor, target platform Pycom devices  
+
+<details><summary>Details</summary>
+<ul>
+<li>🌐 <strong>URL:</strong> https://github.com/robert-hh/BME280</li>
+<li>🏷️ <strong>Tags:</strong> pressure, temperature, humidity</li>
+</ul>
+</details>
+
+<hr />
+
 ### [BME680-Micropython](https://github.com/robert-hh/BME680-Micropython)
 
 Micropython Driver for a BME680 breakout. The driver uses the I2C interface.  
@@ -143,19 +156,6 @@ MicroPython driver for DS3231 RTC and AT24C32 EEPROM module.
 <ul>
 <li>🌐 <strong>URL:</strong> https://github.com/pangopi/micropython-DS3231-AT24C32</li>
 <li>🏷️ <strong>Tags:</strong> time, RTC</li>
-</ul>
-</details>
-
-<hr />
-
-### [micropython-PressureTemp](https://github.com/RuiSantosdotme/ESP-MicroPython)
-
-Adafruit BME280 Library, a library for the Adafruit BME280 Humidity, Barometric Pressure + Temp sensor.  
-
-<details><summary>Details</summary>
-<ul>
-<li>🌐 <strong>URL:</strong> https://github.com/RuiSantosdotme/ESP-MicroPython</li>
-<li>🏷️ <strong>Tags:</strong> pressure, temperature</li>
 </ul>
 </details>
 
