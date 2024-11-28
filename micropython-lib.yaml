@@ -4,11 +4,13 @@ packages:
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/aioespnow
     index: https://micropython.org/pi/v2
+    author: MicroPython
     description: Extends the micropython espnow module with methods to support asyncio.
   - name: aiorepl
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/aiorepl
     index: https://micropython.org/pi/v2
+    author: MicroPython
     description: >-
       Provides an asynchronous REPL that can run concurrently with an asyncio,
       also allowing await expressions.
@@ -16,38 +18,47 @@ packages:
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/bluetooth/aioble
     index: https://micropython.org/pi/v2
+    author: MicroPython
   - name: aioble-central
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/bluetooth/aioble-central
     index: https://micropython.org/pi/v2
+    author: MicroPython
   - name: aioble-client
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/bluetooth/aioble-client
     index: https://micropython.org/pi/v2
+    author: MicroPython
   - name: aioble-core
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/bluetooth/aioble-core
     index: https://micropython.org/pi/v2
+    author: MicroPython
   - name: aioble-l2cap
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/bluetooth/aioble-l2cap
     index: https://micropython.org/pi/v2
+    author: MicroPython
   - name: aioble-peripheral
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/bluetooth/aioble-peripheral
     index: https://micropython.org/pi/v2
+    author: MicroPython
   - name: aioble-security
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/bluetooth/aioble-security
     index: https://micropython.org/pi/v2
+    author: MicroPython
   - name: aioble-server
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/bluetooth/aioble-server
     index: https://micropython.org/pi/v2
+    author: MicroPython
   - name: bundle-networking
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/bundles/bundle-networking
     index: https://micropython.org/pi/v2
+    author: MicroPython
     description: >-
       Common networking packages for all network-capable deployments of
       MicroPython.
@@ -55,203 +66,763 @@ packages:
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/bus/onewire
     index: https://micropython.org/pi/v2
+    author: MicroPython
     description: Onewire driver.
   - name: wm8960
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/codec/wm8960
     index: https://micropython.org/pi/v2
+    author: MicroPython
     description: WM8960 codec.
   - name: lcd160cr
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/display/lcd160cr
     index: https://micropython.org/pi/v2
+    author: MicroPython
     description: LCD160CR driver.
   - name: ssd1306
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/display/ssd1306
     index: https://micropython.org/pi/v2
+    author: MicroPython
     description: SSD1306 OLED driver.
   - name: bmi270
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/imu/bmi270
     index: https://micropython.org/pi/v2
+    author: MicroPython
     description: BOSCH BMI270 IMU driver.
   - name: bmm150
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/imu/bmm150
     index: https://micropython.org/pi/v2
+    author: MicroPython
     description: BOSCH BMM150 magnetometer driver.
   - name: lsm6dsox
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/imu/lsm6dsox
     index: https://micropython.org/pi/v2
+    author: MicroPython
     description: ST LSM6DSOX imu driver.
   - name: lsm9ds1
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/imu/lsm9ds1
     index: https://micropython.org/pi/v2
+    author: MicroPython
     description: Driver for ST LSM9DS1 IMU.
   - name: neopixel
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/led/neopixel
     index: https://micropython.org/pi/v2
+    author: MicroPython
     description: WS2812/NeoPixel driver.
   - name: nrf24l01
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/radio/nrf24l01
     index: https://micropython.org/pi/v2
+    author: MicroPython
     description: nrf24l01 2.4GHz radio driver.
   - name: dht
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/sensor/dht
     index: https://micropython.org/pi/v2
+    author: MicroPython
     description: DHT11 & DHT22 temperature/humidity sensor driver.
   - name: ds18x20
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/sensor/ds18x20
     index: https://micropython.org/pi/v2
+    author: MicroPython
     description: DS18x20 temperature sensor driver.
   - name: hs3003
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/sensor/hs3003
     index: https://micropython.org/pi/v2
+    author: MicroPython
     description: Renesas HS3003 Humidity and Temperature sensor driver.
   - name: hts221
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/sensor/hts221
     index: https://micropython.org/pi/v2
+    author: MicroPython
     description: HTS221 temperature/humidity sensor driver.
   - name: lps22h
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/sensor/lps22h
     index: https://micropython.org/pi/v2
+    author: MicroPython
     description: LPS22H temperature/pressure sensor driver.
   - name: mhz19
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/sensor/mhz19
     index: https://micropython.org/pi/v2
+    author: MicroPython
     description: Driver for MH-Z19 CO2 sensor.
   - name: sdcard
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/storage/sdcard
     index: https://micropython.org/pi/v2
+    author: MicroPython
     description: SDCard block device driver.
   - name: espflash
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/espflash
     index: https://micropython.org/pi/v2
+    author: MicroPython
     description: Provides a minimal ESP32 bootloader protocol implementation.
   - name: lora
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/lora/lora
     index: https://micropython.org/pi/v2
+    author: MicroPython
   - name: lora-async
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/lora/lora-async
     index: https://micropython.org/pi/v2
+    author: MicroPython
   - name: lora-stm32wl5
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/lora/lora-stm32wl5
     index: https://micropython.org/pi/v2
+    author: MicroPython
   - name: lora-sx126x
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/lora/lora-sx126x
     index: https://micropython.org/pi/v2
+    author: MicroPython
   - name: lora-sx127x
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/lora/lora-sx127x
     index: https://micropython.org/pi/v2
+    author: MicroPython
   - name: lora-sync
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/lora/lora-sync
     index: https://micropython.org/pi/v2
+    author: MicroPython
   - name: mip
     docs: https://github.com/micropython/micropython-lib/tree/master/micropython/mip
     index: https://micropython.org/pi/v2
+    author: MicroPython
     description: On-device package installer for network-capable boards
   - name: mip-cmdline
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/mip-cmdline
     index: https://micropython.org/pi/v2
+    author: MicroPython
     description: Optional support for running `micropython -m mip`
   - name: ntptime
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/net/ntptime
     index: https://micropython.org/pi/v2
+    author: MicroPython
     description: NTP client.
   - name: webrepl
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/net/webrepl
     index: https://micropython.org/pi/v2
+    author: MicroPython
     description: WebREPL server.
   - name: senml
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/senml
     index: https://micropython.org/pi/v2
+    author: MicroPython
     description: SenML serialisation for MicroPython.
   - name: uaiohttpclient
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/uaiohttpclient
     index: https://micropython.org/pi/v2
+    author: MicroPython
     description: HTTP client module for MicroPython asyncio module
   - name: ucontextlib
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/ucontextlib
     index: https://micropython.org/pi/v2
+    author: MicroPython
     description: Minimal subset of contextlib for MicroPython low-memory ports
   - name: udnspkt
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/udnspkt
     index: https://micropython.org/pi/v2
+    author: MicroPython
     description: Make and parse DNS packets (Sans I/O approach).
   - name: umqtt.robust
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/umqtt.robust
     index: https://micropython.org/pi/v2
+    author: MicroPython
   - name: umqtt.simple
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/umqtt.simple
     index: https://micropython.org/pi/v2
+    author: MicroPython
     description: Lightweight MQTT client for MicroPython.
   - name: upysh
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/upysh
     index: https://micropython.org/pi/v2
+    author: MicroPython
     description: Minimalistic file shell using native Python syntax.
   - name: urequests
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/urequests
     index: https://micropython.org/pi/v2
+    author: MicroPython
   - name: urllib.urequest
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/urllib.urequest
     index: https://micropython.org/pi/v2
+    author: MicroPython
   - name: usb-device
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/usb/usb-device
     index: https://micropython.org/pi/v2
+    author: MicroPython
   - name: usb-device-cdc
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/usb/usb-device-cdc
     index: https://micropython.org/pi/v2
+    author: MicroPython
   - name: usb-device-hid
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/usb/usb-device-hid
     index: https://micropython.org/pi/v2
+    author: MicroPython
   - name: usb-device-keyboard
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/usb/usb-device-keyboard
     index: https://micropython.org/pi/v2
+    author: MicroPython
   - name: usb-device-midi
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/usb/usb-device-midi
     index: https://micropython.org/pi/v2
+    author: MicroPython
   - name: usb-device-mouse
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/usb/usb-device-mouse
     index: https://micropython.org/pi/v2
+    author: MicroPython
   - name: xmltok
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/xmltok
     index: https://micropython.org/pi/v2
+    author: MicroPython
     description: Simple XML tokenizer
+  - name: aiohttp
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-ecosys/aiohttp
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+    description: HTTP client module for MicroPython asyncio module
+  - name: cbor2
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-ecosys/cbor2
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: iperf3
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-ecosys/iperf3
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: pyjwt
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-ecosys/pyjwt
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: requests
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-ecosys/requests
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: __future__
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/__future__
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: abc
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/abc
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: argparse
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/argparse
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: base64
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/base64
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: binascii
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/binascii
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: bisect
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/bisect
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: cmd
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/cmd
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: collections
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/collections
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: collections-defaultdict
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/collections-defaultdict
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: contextlib
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/contextlib
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+    description: Port of contextlib for micropython
+  - name: copy
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/copy
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: curses.ascii
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/curses.ascii
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: datetime
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/datetime
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: errno
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/errno
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: fnmatch
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/fnmatch
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: functools
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/functools
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: gzip
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/gzip
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: hashlib
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/hashlib
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: hashlib-core
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/hashlib-core
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: hashlib-sha224
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/hashlib-sha224
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+    description: Adds the SHA224 hash algorithm to hashlib.
+  - name: hashlib-sha256
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/hashlib-sha256
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+    description: Adds the SHA256 hash algorithm to hashlib.
+  - name: hashlib-sha384
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/hashlib-sha384
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+    description: Adds the SHA384 hash algorithm to hashlib.
+  - name: hashlib-sha512
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/hashlib-sha512
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+    description: Adds the SHA512 hash algorithm to hashlib.
+  - name: heapq
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/heapq
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: hmac
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/hmac
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: html
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/html
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: inspect
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/inspect
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: io
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/io
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: itertools
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/itertools
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: keyword
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/keyword
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: locale
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/locale
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: logging
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/logging
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: operator
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/operator
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: os
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/os
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: os-path
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/os-path
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: pathlib
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/pathlib
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: pickle
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/pickle
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: pkg_resources
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/pkg_resources
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: pkgutil
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/pkgutil
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: pprint
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/pprint
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: quopri
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/quopri
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: random
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/random
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: shutil
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/shutil
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: ssl
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/ssl
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: stat
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/stat
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: string
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/string
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: struct
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/struct
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: tarfile
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/tarfile
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+    description: Read-only implementation of Python's tarfile.
+  - name: tarfile-write
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/tarfile-write
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+    description: Adds write (create/append) support to tarfile.
+  - name: tempfile
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/tempfile
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: textwrap
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/textwrap
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: threading
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/threading
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: time
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/time
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: traceback
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/traceback
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: types
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/types
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: unittest
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/unittest
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: unittest-discover
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/unittest-discover
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: uu
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/uu
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: venv
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/venv
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+    description: >-
+      Support for creating MicroPython virtual environments using `micropython
+      -m venv`
+  - name: warnings
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/warnings
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: zlib
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/python-stdlib/zlib
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+    description: Compression and decompression using the deflate algorithm
+  - name: _libc
+    docs: https://github.com/micropython/micropython-lib/tree/master/unix-ffi/_libc
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+    description: >-
+      MicroPython FFI helper module (deprecated, replaced by
+      micropython-ffilib).
+  - name: _markupbase
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/unix-ffi/_markupbase
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: cgi
+    docs: https://github.com/micropython/micropython-lib/tree/master/unix-ffi/cgi
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: email.charset
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/unix-ffi/email.charset
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: email.encoders
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/unix-ffi/email.encoders
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: email.errors
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/unix-ffi/email.errors
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: email.feedparser
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/unix-ffi/email.feedparser
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: email.header
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/unix-ffi/email.header
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: email.internal
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/unix-ffi/email.internal
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: email.message
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/unix-ffi/email.message
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: email.parser
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/unix-ffi/email.parser
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: email.utils
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/unix-ffi/email.utils
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: fcntl
+    docs: https://github.com/micropython/micropython-lib/tree/master/unix-ffi/fcntl
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: ffilib
+    docs: https://github.com/micropython/micropython-lib/tree/master/unix-ffi/ffilib
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+    description: >-
+      MicroPython FFI helper module to easily interface with underlying shared
+      libraries
+  - name: getopt
+    docs: https://github.com/micropython/micropython-lib/tree/master/unix-ffi/getopt
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: gettext
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/unix-ffi/gettext
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: glob
+    docs: https://github.com/micropython/micropython-lib/tree/master/unix-ffi/glob
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: html.entities
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/unix-ffi/html.entities
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: html.parser
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/unix-ffi/html.parser
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: http.client
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/unix-ffi/http.client
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: json
+    docs: https://github.com/micropython/micropython-lib/tree/master/unix-ffi/json
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: machine
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/unix-ffi/machine
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: multiprocessing
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/unix-ffi/multiprocessing
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: os
+    docs: https://github.com/micropython/micropython-lib/tree/master/unix-ffi/os
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: pwd
+    docs: https://github.com/micropython/micropython-lib/tree/master/unix-ffi/pwd
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: pyusb
+    docs: https://github.com/micropython/micropython-lib/tree/master/unix-ffi/pyusb
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: re
+    docs: https://github.com/micropython/micropython-lib/tree/master/unix-ffi/re
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: select
+    docs: https://github.com/micropython/micropython-lib/tree/master/unix-ffi/select
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: signal
+    docs: https://github.com/micropython/micropython-lib/tree/master/unix-ffi/signal
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: socket
+    docs: https://github.com/micropython/micropython-lib/tree/master/unix-ffi/socket
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: sqlite3
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/unix-ffi/sqlite3
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: test.support
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/unix-ffi/test.support
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: time
+    docs: https://github.com/micropython/micropython-lib/tree/master/unix-ffi/time
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: timeit
+    docs: https://github.com/micropython/micropython-lib/tree/master/unix-ffi/timeit
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: tty
+    docs: https://github.com/micropython/micropython-lib/tree/master/unix-ffi/tty
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: ucurses
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/unix-ffi/ucurses
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+  - name: urllib.parse
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/unix-ffi/urllib.parse
+    index: https://micropython.org/pi/v2
+    author: MicroPython
