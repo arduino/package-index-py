@@ -8,13 +8,29 @@ Please read the [contribution guidelines](./CONTRIBUTING.md) to learn how to add
 
 
 ## 📦 Packages
+### [Arduino Modulino](https://github.com/arduino/arduino-modulino-mpy)
+
+A MicroPython library to control Arduino Modulinos.  
+
+<details><summary>Details</summary>
+<ul>
+<li>🌐 <strong>URL:</strong> https://github.com/arduino/arduino-modulino-mpy</li>
+<li>👤 <strong>Author:</strong> Arduino, Sebastian Romero</li>
+<li>📜 <strong>License:</strong> Mozilla Public License Version 2.0</li>
+<li>🏷️ <strong>Tags:</strong> sensors, actuators</li>
+</ul>
+</details>
+
+<hr />
+
 ### [BME280](https://github.com/robert-hh/BME280)
 
-Micropython driver for the BME280 sensor, target platform Pycom devices  
+MicroPython driver for the BME280 sensor, target platform Pycom devices.  
 
 <details><summary>Details</summary>
 <ul>
 <li>🌐 <strong>URL:</strong> https://github.com/robert-hh/BME280</li>
+<li>👤 <strong>Author:</strong> Robert Hammelrath</li>
 <li>🏷️ <strong>Tags:</strong> pressure, temperature, humidity</li>
 </ul>
 </details>
@@ -41,11 +57,12 @@ Micropython Driver for a BME680 breakout. The driver uses the I2C interface.
 
 ### [HT16K33-Python](https://github.com/smittytone/HT16K33-Python)
 
-Python drivers for the Holtek HT16K33 controller chip and various display devices based upon it, such as the Adafruit 0.8-inch 8x16 LED Matrix FeatherWing and the Raspberry Pi Pico. The drivers supports both CircuitPython and MicroPython applications. They communicate using I²C.  
+Python drivers for the Holtek HT16K33 controller chip and various display devices based upon it, such as the Adafruit 0.8-inch 8x16 LED Matrix FeatherWing and the Raspberry Pi Pico. The drivers support both CircuitPython and MicroPython applications. They communicate using I²C.  
 
 <details><summary>Details</summary>
 <ul>
 <li>🌐 <strong>URL:</strong> https://github.com/smittytone/HT16K33-Python</li>
+<li>👤 <strong>Author:</strong> smittytone</li>
 <li>📜 <strong>License:</strong> Licensed under the MIT License.</li>
 <li>🏷️ <strong>Tags:</strong> LED, matrix, segment, adafruit</li>
 <li>✅ <strong>Verification:</strong>
@@ -65,6 +82,8 @@ A port of the SparkFun driver for Maxim MAX30102 sensor to MicroPython.
 <details><summary>Details</summary>
 <ul>
 <li>🌐 <strong>URL:</strong> https://github.com/n-elia/MAX30102-MicroPython-driver</li>
+<li>👤 <strong>Author:</strong> n-elia</li>
+<li>📜 <strong>License:</strong> MIT License</li>
 <li>🏷️ <strong>Tags:</strong> sensors</li>
 </ul>
 </details>
@@ -73,7 +92,7 @@ A port of the SparkFun driver for Maxim MAX30102 sensor to MicroPython.
 
 ### [MicroPython-Button](https://github.com/ubidefeo/MicroPython-Button)
 
-An easy to use MicroPython library to handle Buttons and other devices with digital (LOW/HIGH) output.  
+An easy-to-use MicroPython library to handle buttons and other devices with digital (LOW/HIGH) output.  
 
 <details><summary>Details</summary>
 <ul>
@@ -96,6 +115,8 @@ MicroPython driver for the SH1106 OLED controller
 <details><summary>Details</summary>
 <ul>
 <li>🌐 <strong>URL:</strong> https://github.com/robert-hh/SH1106</li>
+<li>👤 <strong>Author:</strong> Robert Hammelrath</li>
+<li>📜 <strong>License:</strong> MIT License</li>
 <li>🏷️ <strong>Tags:</strong> display, OLED</li>
 </ul>
 </details>
@@ -110,39 +131,12 @@ A Python client for the Arduino IoT cloud, which runs on both CPython and MicroP
 <ul>
 <li>🌐 <strong>URL:</strong> https://github.com/arduino/arduino-iot-cloud-py</li>
 <li>👤 <strong>Author:</strong> Arduino</li>
+<li>📜 <strong>License:</strong> Mozilla Public License Version 2.0</li>
 <li>🏷️ <strong>Tags:</strong> cloud, iot</li>
 <li>✅ <strong>Verification:</strong>
 <ul>
 <li>Verified v0.0.7 with <code>arduino:mbed_portenta:envie_m7</code> on MicroPython v1.19.1</li>
 </ul></li>
-</ul>
-</details>
-
-<hr />
-
-### [arduino-modulino-mpy](https://github.com/arduino/arduino-modulino-mpy)
-
-A MicroPython library to control Arduino Modulinos.  
-
-<details><summary>Details</summary>
-<ul>
-<li>🌐 <strong>URL:</strong> https://github.com/arduino/arduino-modulino-mpy</li>
-<li>👤 <strong>Author:</strong> Arduino, Sebastian Romero</li>
-<li>🏷️ <strong>Tags:</strong> sensors, actuators</li>
-</ul>
-</details>
-
-<hr />
-
-### [lcd](https://github.com/dhylands/python_lcd/)
-
-Python code for talking to HD44780 compatible character based dot matrix LCDs.  
-
-<details><summary>Details</summary>
-<ul>
-<li>🌐 <strong>URL:</strong> https://github.com/dhylands/python_lcd/</li>
-<li>📜 <strong>License:</strong> MIT license; Copyright (c) 2013 Dave Hylands</li>
-<li>🏷️ <strong>Tags:</strong> display, LCD</li>
 </ul>
 </details>
 
@@ -155,6 +149,8 @@ MicroPython driver for DS3231 RTC and AT24C32 EEPROM module.
 <details><summary>Details</summary>
 <ul>
 <li>🌐 <strong>URL:</strong> https://github.com/pangopi/micropython-DS3231-AT24C32</li>
+<li>👤 <strong>Author:</strong> pangopi</li>
+<li>📜 <strong>License:</strong> MIT License</li>
 <li>🏷️ <strong>Tags:</strong> time, RTC</li>
 </ul>
 </details>
@@ -168,6 +164,8 @@ Micropython implementation of DFPlayer control over UART
 <details><summary>Details</summary>
 <ul>
 <li>🌐 <strong>URL:</strong> https://github.com/ubidefeo/micropython-dfplayer</li>
+<li>👤 <strong>Author:</strong> Ubi de Feo</li>
+<li>📜 <strong>License:</strong> MIT License</li>
 <li>🏷️ <strong>Tags:</strong> audio, mp3</li>
 <li>✅ <strong>Verification:</strong>
 <ul>
@@ -185,6 +183,8 @@ This library is designed to support a MicroPython interface for i2c LCD characte
 <details><summary>Details</summary>
 <ul>
 <li>🌐 <strong>URL:</strong> https://github.com/ubidefeo/micropython-i2c-lcd</li>
+<li>👤 <strong>Author:</strong> Ubi de Feo</li>
+<li>📜 <strong>License:</strong> MIT License</li>
 <li>🏷️ <strong>Tags:</strong> display, LCD, RGB</li>
 </ul>
 </details>
@@ -198,6 +198,7 @@ Micropython package to control HD44780 LCD displays 1602 and 2004 via I2C
 <details><summary>Details</summary>
 <ul>
 <li>🌐 <strong>URL:</strong> https://github.com/brainelectronics/micropython-i2c-lcd</li>
+<li>👤 <strong>Author:</strong> brainelectronics</li>
 <li>📜 <strong>License:</strong> MIT</li>
 </ul>
 </details>
@@ -211,6 +212,7 @@ Nonblocking device drivers to receive from IR (infra red) remotes.
 <details><summary>Details</summary>
 <ul>
 <li>🌐 <strong>URL:</strong> https://github.com/peterhinch/micropython_ir/ir_rx</li>
+<li>👤 <strong>Author:</strong> Peter Hinch</li>
 <li>📜 <strong>License:</strong> MIT</li>
 <li>🏷️ <strong>Tags:</strong> IR</li>
 </ul>
@@ -225,6 +227,7 @@ Nonblocking device drivers for IR (infra red) blaster apps.
 <details><summary>Details</summary>
 <ul>
 <li>🌐 <strong>URL:</strong> https://github.com/peterhinch/micropython_ir/ir_tx</li>
+<li>👤 <strong>Author:</strong> Peter Hinch</li>
 <li>📜 <strong>License:</strong> MIT</li>
 <li>🏷️ <strong>Tags:</strong> IR</li>
 </ul>
@@ -234,11 +237,12 @@ Nonblocking device drivers for IR (infra red) blaster apps.
 
 ### [micropython-max7219](https://github.com/mcauser/micropython-max7219)
 
-A MicroPython library for the MAX7219 8x8 LED matrix driver, SPI interface, supports cascading and uses framebuf  
+A MicroPython library for the MAX7219 8x8 LED matrix driver, SPI interface, supports cascading and uses framebuf.  
 
 <details><summary>Details</summary>
 <ul>
 <li>🌐 <strong>URL:</strong> https://github.com/mcauser/micropython-max7219</li>
+<li>👤 <strong>Author:</strong> Mike Causer</li>
 <li>📜 <strong>License:</strong> Licensed under the MIT License.</li>
 <li>🏷️ <strong>Tags:</strong> LED, matrix</li>
 </ul>
@@ -254,6 +258,7 @@ MicroPython ModBus TCP and RTU library supporting client and host mode
 <ul>
 <li>🌐 <strong>URL:</strong> https://github.com/brainelectronics/micropython-modbus</li>
 <li>👤 <strong>Author:</strong> brainelectronics</li>
+<li>📜 <strong>License:</strong> GNU General Public License</li>
 <li>🏷️ <strong>Tags:</strong> modbus</li>
 </ul>
 </details>
@@ -286,6 +291,7 @@ MicroPython driver to read a rotary encoder. Works with Pyboard, Raspberry Pi Pi
 <ul>
 <li>🌐 <strong>URL:</strong> https://github.com/miketeachman/micropython-rotary</li>
 <li>👤 <strong>Author:</strong> miketeachman</li>
+<li>📜 <strong>License:</strong> MIT License</li>
 <li>🏷️ <strong>Tags:</strong> encoder</li>
 <li>✅ <strong>Verification:</strong>
 <ul>
@@ -298,11 +304,12 @@ MicroPython driver to read a rotary encoder. Works with Pyboard, Raspberry Pi Pi
 
 ### [micropython-thermal-printer](https://github.com/ayoy/micropython-thermal-printer)
 
-This is the MicroPython port of Python Thermal Printer by Adafruit  
+This is the MicroPython port of Python Thermal Printer by Adafruit.  
 
 <details><summary>Details</summary>
 <ul>
 <li>🌐 <strong>URL:</strong> https://github.com/ayoy/micropython-thermal-printer</li>
+<li>👤 <strong>Author:</strong> ayoy</li>
 <li>🏷️ <strong>Tags:</strong> printer</li>
 </ul>
 </details>
@@ -316,6 +323,7 @@ A MicroPython library for quad 7-segment LED display modules using the TM1637 LE
 <details><summary>Details</summary>
 <ul>
 <li>🌐 <strong>URL:</strong> https://github.com/mcauser/micropython-tm1637</li>
+<li>👤 <strong>Author:</strong> Mike Causer</li>
 <li>🏷️ <strong>Tags:</strong> display</li>
 <li>✅ <strong>Verification:</strong>
 <ul>
@@ -333,6 +341,8 @@ MicroPython driver for the AHT10 and AHT20 temperature and humidity sensors.
 <details><summary>Details</summary>
 <ul>
 <li>🌐 <strong>URL:</strong> https://github.com/targetblank/micropython_ahtx0</li>
+<li>👤 <strong>Author:</strong> targetblank</li>
+<li>📜 <strong>License:</strong> MIT License</li>
 <li>🏷️ <strong>Tags:</strong> sensors, temperature, humidity</li>
 </ul>
 </details>
@@ -345,6 +355,7 @@ MicroPython driver for the AHT10 and AHT20 temperature and humidity sensors.
 <ul>
 <li>🌐 <strong>URL:</strong> https://github.com/TTitanUA/micropython_servo_pdm</li>
 <li>👤 <strong>Author:</strong> Taras Prokofiev</li>
+<li>📜 <strong>License:</strong> MIT License</li>
 <li>🏷️ <strong>Tags:</strong> servo</li>
 <li>✅ <strong>Verification:</strong>
 <ul>
@@ -357,11 +368,13 @@ MicroPython driver for the AHT10 and AHT20 temperature and humidity sensors.
 
 ### [pi_pico_neopixel](https://github.com/blaz-r/pi_pico_neopixel)
 
-a library for using ws2812b and sk6812 leds (aka neopixels) with Raspberry Pi Pico  
+A library for using WS2812b and SK6812 LEDs (aka neopixels) with Raspberry Pi Pico.  
 
 <details><summary>Details</summary>
 <ul>
 <li>🌐 <strong>URL:</strong> https://github.com/blaz-r/pi_pico_neopixel</li>
+<li>👤 <strong>Author:</strong> blaz-r</li>
+<li>📜 <strong>License:</strong> MIT License</li>
 <li>🏷️ <strong>Tags:</strong> LED</li>
 </ul>
 </details>
@@ -375,6 +388,8 @@ A simple class for controlling a 9g servo with the Raspberry Pi Pico.
 <details><summary>Details</summary>
 <ul>
 <li>🌐 <strong>URL:</strong> https://github.com/sandbo00/picoservo</li>
+<li>👤 <strong>Author:</strong> sandbo00</li>
+<li>📜 <strong>License:</strong> MIT License</li>
 <li>🏷️ <strong>Tags:</strong> servo</li>
 </ul>
 </details>
@@ -388,6 +403,7 @@ Micropython driver for SH1107-based OLED display (64 x 128)
 <details><summary>Details</summary>
 <ul>
 <li>🌐 <strong>URL:</strong> https://github.com/nemart69/sh1107-micropython</li>
+<li>👤 <strong>Author:</strong> nemart69</li>
 <li>🏷️ <strong>Tags:</strong> display, OLED</li>
 </ul>
 </details>
@@ -396,13 +412,13 @@ Micropython driver for SH1107-based OLED display (64 x 128)
 
 ### [ucPack-mpy](https://github.com/arduino/ucPack-mpy)
 
-A MicroPython porting of ucPack library.  
+A MicroPython porting of the ucPack library.  
 
 <details><summary>Details</summary>
 <ul>
 <li>🌐 <strong>URL:</strong> https://github.com/arduino/ucPack-mpy</li>
 <li>👤 <strong>Author:</strong> Arduino, Giovanni di Dio Bruno, Lucio Rossi</li>
-<li>📜 <strong>License:</strong> Licensed under MPL2.0.</li>
+<li>📜 <strong>License:</strong> Mozilla Public License Version 2.0</li>
 <li>🏷️ <strong>Tags:</strong> communication</li>
 </ul>
 </details>
