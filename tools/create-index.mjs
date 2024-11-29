@@ -3,6 +3,17 @@ import path from 'path';
 import { execSync } from 'child_process';
 import yaml from 'js-yaml';
 
+const cloneRepository = (url, directory) => {
+  try {
+    // Clone the repository
+    execSync(`git clone ${url} ${directory}`);
+    return true;
+  } catch (error) {
+    console.error(`Error cloning repository: ${error.message}`);
+    return false;
+  }
+};
+
 const getGitHubUrl = (rootPath) => {
   try {
     // Get the GitHub repository URL
@@ -63,12 +74,18 @@ const searchPackages = (directory, outputFilename, indexUrl) => {
       } else {
         const isPackageJson = file === 'package.json';
         const isManifestPy = file === 'manifest.py';
+        const packageName = path.basename(dir);
+
+        if(packageName.startsWith("_")) {
+          continue; // Skip "private" packages
+        }
 
         if (isPackageJson || isManifestPy) {
           const packageInfo = {
-            name: path.basename(dir),
+            name: packageName,
             docs: constructGitHubUrl(gitHubUrl, currentBranch, repositoryRoot, dir),
             index: indexUrl,
+            author: 'MicroPython',
           };
 
           if (isManifestPy) {
@@ -109,14 +126,22 @@ const searchPackages = (directory, outputFilename, indexUrl) => {
 };
 
 // Check if command line arguments are provided
-if (process.argv.length < 5) {
+if (process.argv.length < 3) {
   // Note: Official MicroPython lib index is: https://micropython.org/pi/v2
-  // Example usage: node create-index.mjs ../micropython-lib/micropython micropython-lib.yml https://micropython.org/pi/v2
-  console.error('Usage: node create-index.mjs <directory> <outputFilename.yml> <indexUrl>');
+  // Example usage: node create-index.mjs micropython-lib.yml
+  console.error('Usage: node create-index.mjs <outputFilename.yml>');
 } else {
-  const directory = process.argv[2];
-  const outputFilename = process.argv[3];
-  const indexUrl = process.argv[4];
+  // Make build directory if it doesn't exist
+  if (!fs.existsSync('build')) {
+    fs.mkdirSync('build');
+  }
+
+  if(!fs.existsSync('build/micropython-lib')) {
+    cloneRepository("git@github.com:micropython/micropython-lib.git", "build/micropython-lib");
+  }
+  const directory = "build/micropython-lib";
+  const indexUrl = "https://micropython.org/pi/v2";
+  const outputFilename = process.argv[2];
 
   searchPackages(directory, outputFilename, indexUrl);
 }
