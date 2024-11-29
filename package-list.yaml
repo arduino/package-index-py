@@ -6,11 +6,13 @@ packages:
     description: A MicroPython library to control Arduino Modulinos.
     docs: https://github.com/arduino/arduino-modulino-mpy/blob/main/docs/api.md
     tags: ["sensors", "actuators"]
+    license: Mozilla Public License Version 2.0
   - name: micropython-modbus
     url: https://github.com/brainelectronics/micropython-modbus
     author: brainelectronics
     description: MicroPython ModBus TCP and RTU library supporting client and host mode
     tags: ["modbus"]
+    license: GNU General Public License
   - name: arduino-iot-cloud-py
     url: https://github.com/arduino/arduino-iot-cloud-py
     author: Arduino
@@ -22,6 +24,7 @@ packages:
         library_version: "0.0.7"
         micropython_version: "1.19.1"
         tester: "arduino"
+    license: Mozilla Public License Version 2.0
   - name: BME680-Micropython
     url: https://github.com/robert-hh/BME680-Micropython
     author: Robert Hammelrath
@@ -59,6 +62,7 @@ packages:
         library_version: null
         micropython_version: "1.19.1"
         tester: "arduino"
+    license: MIT License
   - name: micropython_servo_pdm
     author: Taras Prokofiev
     url: https://github.com/TTitanUA/micropython_servo_pdm
@@ -75,6 +79,7 @@ packages:
         library_version: null
         micropython_version: "1.19.1"
         tester: "arduino"
+    license: MIT License
   - name: picoservo
     url: https://github.com/sandbo00/picoservo
     author: sandbo00
@@ -83,6 +88,7 @@ packages:
     package_descriptor:
       urls:
         - [servo.py, github:sandbo00/picoservo/servo.py]
+    license: MIT License
   - name: micropython-DS3231-AT24C32
     url: https://github.com/pangopi/micropython-DS3231-AT24C32
     author: pangopi
@@ -91,6 +97,7 @@ packages:
     package_descriptor:
       urls:
         - [ds3231.py, github:pangopi/micropython-DS3231-AT24C32/ds3231.py]
+    license: MIT License
   - name: micropython_ahtx0
     url: https://github.com/targetblank/micropython_ahtx0
     author: targetblank
@@ -99,6 +106,7 @@ packages:
     package_descriptor:
       urls:
         - [ahtx0.py, github:targetblank/micropython_ahtx0/ahtx0.py]
+    license: MIT License
   - name: micropython-dfplayer
     url: https://github.com/ubidefeo/micropython-dfplayer
     author: Ubi de Feo
@@ -109,16 +117,19 @@ packages:
         library_version: null
         micropython_version: "1.19.1"
         tester: "arduino"
+    license: MIT License
   - name: MAX30102-MicroPython-driver
     url: https://github.com/n-elia/MAX30102-MicroPython-driver
     author: n-elia
     description: A port of the SparkFun driver for Maxim MAX30102 sensor to MicroPython.
     tags: ["sensors"]
+    license: MIT License
   - name: micropython-i2c-lcd
     url: https://github.com/ubidefeo/micropython-i2c-lcd
     author: Ubi de Feo
     description: This library is designed to support a MicroPython interface for i2c LCD character screens. It is designed around the Pycom implementation of MicroPython
     tags: ["display", "LCD", "RGB"]
+    license: MIT License
   - name: micropython-i2c-lcd-monochrome
     url: https://github.com/brainelectronics/micropython-i2c-lcd
     author: brainelectronics
@@ -140,6 +151,7 @@ packages:
     package_descriptor:
       urls:
         - [sh1106.py, github:robert-hh/SH1106/sh1106.py]
+    license: MIT License
   - name: micropython-ir-rx
     url: https://github.com/peterhinch/micropython_ir/ir_rx
     author: Peter Hinch
@@ -160,6 +172,7 @@ packages:
     package_descriptor:
       urls:
         - [neopixel.py, github:blaz-r/pi_pico_neopixel/neopixel.py]
+    license: MIT License
   - name: micropython-thermal-printer
     url: https://github.com/ayoy/micropython-thermal-printer
     author: ayoy
@@ -226,4 +239,4 @@ packages:
     author: Arduino, Giovanni di Dio Bruno, Lucio Rossi
     description: A MicroPython porting of the ucPack library.
     tags: ["communication"]
-    license: Licensed under MPL2.0.
+    license: Mozilla Public License Version 2.0
