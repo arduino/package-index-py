@@ -250,6 +250,21 @@ A MicroPython library for the MAX7219 8x8 LED matrix driver, SPI interface, supp
 
 <hr />
 
+### [micropython-mlx90614](https://github.com/mcauser/micropython-mlx90614)
+
+A MicroPython library for interfacing with a Melexis MLX90614 IR temperature sensor.  
+
+<details><summary>Details</summary>
+<ul>
+<li>🌐 <strong>URL:</strong> https://github.com/mcauser/micropython-mlx90614</li>
+<li>👤 <strong>Author:</strong> Mike Causer</li>
+<li>📜 <strong>License:</strong> MIT License</li>
+<li>🏷️ <strong>Tags:</strong> sensor, temperature</li>
+</ul>
+</details>
+
+<hr />
+
 ### [micropython-modbus](https://github.com/brainelectronics/micropython-modbus)
 
 MicroPython ModBus TCP and RTU library supporting client and host mode  
