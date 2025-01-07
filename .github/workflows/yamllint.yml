@@ -17,3 +17,7 @@ jobs:
           yamllint_config_filepath: 'yamllint-config.yml'
         env:
           GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: 'Schema Validation'
+        run: |
+          npm i -g yaml-schema-validator
+          schema validate -e -f package-list.yaml -s schema.yml
