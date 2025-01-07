@@ -1,5 +1,11 @@
 ---
 packages:
+  - name: Arduino Nicla Sense Env
+    url: https://github.com/arduino/arduino-nicla-sense-env-mpy
+    author: Arduino, Sebastian Romero
+    description: A MicroPython library to control the Arduino Nicla Sense Env.
+    tags: ["sensors", "environment"]
+    license: Mozilla Public License Version 2.0
   - name: Arduino Modulino
     url: https://github.com/arduino/arduino-modulino-mpy
     author: Arduino, Sebastian Romero
