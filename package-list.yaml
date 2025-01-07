@@ -7,6 +7,32 @@ packages:
     docs: https://github.com/arduino/arduino-modulino-mpy/blob/main/docs/api.md
     tags: ["sensors", "actuators"]
     license: Mozilla Public License Version 2.0
+  - name: micropython-mpr121
+    url: https://github.com/mcauser/micropython-mpr121
+    author: Mike Causer
+    description: MicroPython driver for MPR121 capacitive touch keypads and breakout boards.
+    tags: ["sensor", "touch"]
+    license: MIT License
+    package_descriptor:
+      urls:
+        - [mpr121.py, github:mcauser/micropython-mpr121/mpr121.py]
+  - name: ads1x15
+    url: https://github.com/robert-hh/ads1x15
+    author: Robert Hammelrath
+    description: MicroPython driver for the ADS1x15 ADCs
+    tags: ["ADC"]
+    package_descriptor:
+      urls:
+        - [ads1x15.py, github:robert-hh/ads1x15/ads1x15.py]
+  - name: micropython-mcp23017
+    url: https://github.com/mcauser/micropython-mcp23017
+    author: Mike Causer
+    description: A MicroPython library for the MCP23017 16-bit I/O Expander with I2C Interface.
+    tags: ["I/O", "expander"]
+    license: MIT License
+    package_descriptor:
+      urls:
+        - [mcp23017.py, github:mcauser/micropython-mcp23017/mcp23017.py]
   - name: micropython-mlx90614
     url: https://github.com/mcauser/micropython-mlx90614
     author: Mike Causer
