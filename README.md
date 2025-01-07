@@ -123,6 +123,20 @@ MicroPython driver for the SH1106 OLED controller
 
 <hr />
 
+### [ads1x15](https://github.com/robert-hh/ads1x15)
+
+MicroPython driver for the ADS1x15 ADCs  
+
+<details><summary>Details</summary>
+<ul>
+<li>🌐 <strong>URL:</strong> https://github.com/robert-hh/ads1x15</li>
+<li>👤 <strong>Author:</strong> Robert Hammelrath</li>
+<li>🏷️ <strong>Tags:</strong> ADC</li>
+</ul>
+</details>
+
+<hr />
+
 ### [arduino-iot-cloud-py](https://github.com/arduino/arduino-iot-cloud-py)
 
 A Python client for the Arduino IoT cloud, which runs on both CPython and MicroPython.  
@@ -250,6 +264,21 @@ A MicroPython library for the MAX7219 8x8 LED matrix driver, SPI interface, supp
 
 <hr />
 
+### [micropython-mcp23017](https://github.com/mcauser/micropython-mcp23017)
+
+A MicroPython library for the MCP23017 16-bit I/O Expander with I2C Interface.  
+
+<details><summary>Details</summary>
+<ul>
+<li>🌐 <strong>URL:</strong> https://github.com/mcauser/micropython-mcp23017</li>
+<li>👤 <strong>Author:</strong> Mike Causer</li>
+<li>📜 <strong>License:</strong> MIT License</li>
+<li>🏷️ <strong>Tags:</strong> I/O, expander</li>
+</ul>
+</details>
+
+<hr />
+
 ### [micropython-mlx90614](https://github.com/mcauser/micropython-mlx90614)
 
 A MicroPython library for interfacing with a Melexis MLX90614 IR temperature sensor.  
@@ -275,6 +304,21 @@ MicroPython ModBus TCP and RTU library supporting client and host mode
 <li>👤 <strong>Author:</strong> brainelectronics</li>
 <li>📜 <strong>License:</strong> GNU General Public License</li>
 <li>🏷️ <strong>Tags:</strong> modbus</li>
+</ul>
+</details>
+
+<hr />
+
+### [micropython-mpr121](https://github.com/mcauser/micropython-mpr121)
+
+MicroPython driver for MPR121 capacitive touch keypads and breakout boards.  
+
+<details><summary>Details</summary>
+<ul>
+<li>🌐 <strong>URL:</strong> https://github.com/mcauser/micropython-mpr121</li>
+<li>👤 <strong>Author:</strong> Mike Causer</li>
+<li>📜 <strong>License:</strong> MIT License</li>
+<li>🏷️ <strong>Tags:</strong> sensor, touch</li>
 </ul>
 </details>
 
