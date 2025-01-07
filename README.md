@@ -23,6 +23,21 @@ A MicroPython library to control Arduino Modulinos.
 
 <hr />
 
+### [Arduino Nicla Sense Env](https://github.com/arduino/arduino-nicla-sense-env-mpy)
+
+A MicroPython library to control the Arduino Nicla Sense Env.  
+
+<details><summary>Details</summary>
+<ul>
+<li>🌐 <strong>URL:</strong> https://github.com/arduino/arduino-nicla-sense-env-mpy</li>
+<li>👤 <strong>Author:</strong> Arduino, Sebastian Romero</li>
+<li>📜 <strong>License:</strong> Mozilla Public License Version 2.0</li>
+<li>🏷️ <strong>Tags:</strong> sensors, environment</li>
+</ul>
+</details>
+
+<hr />
+
 ### [BME280](https://github.com/robert-hh/BME280)
 
 MicroPython driver for the BME280 sensor, target platform Pycom devices.  
