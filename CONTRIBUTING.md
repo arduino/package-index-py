@@ -24,12 +24,13 @@ See below for detailed instructions on how to do this via the GitHub web interfa
 ​
 ### Package entry example
 ```yaml
-- arduino-iot-cloud-py:
-    name: Arduino IoT Cloud Python client
-    url: https://github.com/arduino/arduino-iot-cloud-py
-    author: Developer or maintainer descriptor
-    description: A Python client for the Arduino IoT cloud, which runs on both CPython and MicroPython.
-    tags: ["cloud", "iot"]
+- name: Arduino Modulino
+  url: https://github.com/arduino/arduino-modulino-mpy
+  author: Arduino
+  description: A MicroPython library to control Arduino Modulinos.
+  docs: https://github.com/arduino/arduino-modulino-mpy/blob/main/docs/api.md
+  tags: ["sensors", "actuators"]
+  license: Mozilla Public License Version 2.0
 ```
 ​
 ​
