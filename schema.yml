@@ -1,0 +1,34 @@
+---
+packages:
+  - name:
+      type: string
+      required: true
+    url:
+      type: string
+      required: true
+    description:
+      type: string
+      required: true
+    author:
+      type: string
+      required: true
+    tags:
+      - type: string
+    required_runtime_version:
+      type: string
+    license:
+      type: string
+    docs:
+      type: string
+    package_descriptor:
+      urls:
+        - - type: string
+    verification:
+      - fqbn:
+          type: string
+        library_version:
+          type: string
+        runtime_version:
+          type: string
+        tester:
+          type: string
