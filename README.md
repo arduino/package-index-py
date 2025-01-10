@@ -63,7 +63,7 @@ Micropython Driver for a BME680 breakout. The driver uses the I2C interface.
 <li>🏷️ <strong>Tags:</strong> sensor</li>
 <li>✅ <strong>Verification:</strong>
 <ul>
-<li>Verified with <code>arduino:mbed_nano:nanorp2040connect</code> on MicroPython v1.19.1</li>
+<li>Verified with <code>arduino:mbed_nano:nanorp2040connect</code> on MicroPython vundefined</li>
 </ul></li>
 </ul>
 </details>
@@ -82,8 +82,8 @@ Python drivers for the Holtek HT16K33 controller chip and various display device
 <li>🏷️ <strong>Tags:</strong> LED, matrix, segment, adafruit</li>
 <li>✅ <strong>Verification:</strong>
 <ul>
-<li>Verified v3.4.2 with <code>arduino:esp32:nano_nora</code> on MicroPython v1.20.0</li>
-<li>Verified v3.4.2 with <code>esp32:esp32:esp32s3</code> on MicroPython v1.20.0</li>
+<li>Verified v3.4.2 with <code>arduino:esp32:nano_nora</code> on MicroPython vundefined</li>
+<li>Verified v3.4.2 with <code>esp32:esp32:esp32s3</code> on MicroPython vundefined</li>
 </ul></li>
 </ul>
 </details>
@@ -116,7 +116,7 @@ An easy-to-use MicroPython library to handle buttons and other devices with digi
 <li>🏷️ <strong>Tags:</strong> input, button</li>
 <li>✅ <strong>Verification:</strong>
 <ul>
-<li>Verified with <code>arduino:mbed_nano:nanorp2040connect</code> on MicroPython v1.19.1</li>
+<li>Verified with <code>arduino:mbed_nano:nanorp2040connect</code> on MicroPython vundefined</li>
 </ul></li>
 </ul>
 </details>
@@ -164,7 +164,7 @@ A Python client for the Arduino IoT cloud, which runs on both CPython and MicroP
 <li>🏷️ <strong>Tags:</strong> cloud, iot</li>
 <li>✅ <strong>Verification:</strong>
 <ul>
-<li>Verified v0.0.7 with <code>arduino:mbed_portenta:envie_m7</code> on MicroPython v1.19.1</li>
+<li>Verified v0.0.7 with <code>arduino:mbed_portenta:envie_m7</code> on MicroPython vundefined</li>
 </ul></li>
 </ul>
 </details>
@@ -198,7 +198,7 @@ Micropython implementation of DFPlayer control over UART
 <li>🏷️ <strong>Tags:</strong> audio, mp3</li>
 <li>✅ <strong>Verification:</strong>
 <ul>
-<li>Verified with <code>arduino:mbed_nano:nanorp2040connect</code> on MicroPython v1.19.1</li>
+<li>Verified with <code>arduino:mbed_nano:nanorp2040connect</code> on MicroPython vundefined</li>
 </ul></li>
 </ul>
 </details>
@@ -350,7 +350,7 @@ A MicroPython library for 10 segment LED bar graph modules using the MY9221 LED 
 <li>🏷️ <strong>Tags:</strong> LED</li>
 <li>✅ <strong>Verification:</strong>
 <ul>
-<li>Verified with <code>arduino:mbed_nano:nanorp2040connect</code> on MicroPython v1.19.1</li>
+<li>Verified with <code>arduino:mbed_nano:nanorp2040connect</code> on MicroPython vundefined</li>
 </ul></li>
 </ul>
 </details>
@@ -369,7 +369,7 @@ MicroPython driver to read a rotary encoder. Works with Pyboard, Raspberry Pi Pi
 <li>🏷️ <strong>Tags:</strong> encoder</li>
 <li>✅ <strong>Verification:</strong>
 <ul>
-<li>Verified with <code>arduino:mbed_nano:nanorp2040connect</code> on MicroPython v1.19.1</li>
+<li>Verified with <code>arduino:mbed_nano:nanorp2040connect</code> on MicroPython vundefined</li>
 </ul></li>
 </ul>
 </details>
@@ -401,7 +401,7 @@ A MicroPython library for quad 7-segment LED display modules using the TM1637 LE
 <li>🏷️ <strong>Tags:</strong> display</li>
 <li>✅ <strong>Verification:</strong>
 <ul>
-<li>Verified v1.3.0 with <code>arduino:mbed_nano:nanorp2040connect</code> on MicroPython v1.19.1</li>
+<li>Verified v1.3.0 with <code>arduino:mbed_nano:nanorp2040connect</code> on MicroPython vundefined</li>
 </ul></li>
 </ul>
 </details>
@@ -425,6 +425,8 @@ MicroPython driver for the AHT10 and AHT20 temperature and humidity sensors.
 
 ### [micropython_servo_pdm](https://github.com/TTitanUA/micropython_servo_pdm)
 
+A MicroPython library for controlling servos using PDM (Pulse Density Modulation) on the Raspberry Pi Pico.  
+
 <details><summary>Details</summary>
 <ul>
 <li>🌐 <strong>URL:</strong> https://github.com/TTitanUA/micropython_servo_pdm</li>
@@ -433,7 +435,7 @@ MicroPython driver for the AHT10 and AHT20 temperature and humidity sensors.
 <li>🏷️ <strong>Tags:</strong> servo</li>
 <li>✅ <strong>Verification:</strong>
 <ul>
-<li>Verified with <code>arduino:mbed_nano:nanorp2040connect</code> on MicroPython v1.19.1</li>
+<li>Verified with <code>arduino:mbed_nano:nanorp2040connect</code> on MicroPython vundefined</li>
 </ul></li>
 </ul>
 </details>
