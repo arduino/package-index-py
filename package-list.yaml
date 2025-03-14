@@ -283,7 +283,7 @@ packages:
     tags: ["communication"]
     license: Mozilla Public License Version 2.0
   - name: Arduino Runtime for MicroPython
-    url: https://github.com/arduino/arduino-modulino-mpy
+    url: https://github.com/arduino/arduino-runtime-mpy
     author: Arduino, Ubi de Feo, Sebastian Romero
     description: Easily build sketches with setup/loop and use familiar Arduino APIs in MicroPython.
     docs: https://github.com/arduino/arduino-runtime-mpy/blob/main/README.md
