@@ -289,3 +289,9 @@ packages:
     docs: https://github.com/arduino/arduino-runtime-mpy/blob/main/README.md
     tags: ["arduino", "programming", "helpers"]
     license: Mozilla Public License Version 2.0
+  - name: mrequests
+    url: https://github.com/SpotlightKid/mrequests
+    author: Christopher Arndt
+    description: An HTTP client module for MicroPython with an API similar to requests.
+    tags: ["network", "HTTP"]
+    license: MIT License

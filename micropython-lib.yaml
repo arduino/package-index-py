@@ -304,6 +304,12 @@ packages:
       https://github.com/micropython/micropython-lib/tree/master/micropython/usb/usb-device-mouse
     index: https://micropython.org/pi/v2
     author: MicroPython
+  - name: utop
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/micropython/utop
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+    description: Provides a top-like live overview of the running system.
   - name: xmltok
     docs: >-
       https://github.com/micropython/micropython-lib/tree/master/micropython/xmltok
