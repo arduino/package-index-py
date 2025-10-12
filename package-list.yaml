@@ -295,3 +295,9 @@ packages:
     description: An HTTP client module for MicroPython with an API similar to requests.
     tags: ["network", "HTTP"]
     license: MIT License
+  - name: Arduino Tools for MicroPython
+    url: https://github.com/arduino/arduino-tools-mpy
+    author: Arduino, Ubi de Feo
+    description: This package adds the MicroPython apps framework, file system helpers, and WiFi network management.
+    tags: ["arduino", "programming", "helpers", "application", "network"]
+    license: Mozilla Public License Version 2.0
