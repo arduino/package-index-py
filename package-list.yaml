@@ -15,6 +15,7 @@ packages:
     license: Mozilla Public License Version 2.0
   - name: Motor Carrier Library for MicroPython (ESP32)
     url: https://github.com/kevinmcaleer/arduino_nano_motor_carrier_mp
+    description: Control the Arduino Motor Carrier shield, including DC motors, servo motors, encoders, PID control, and battery monitoring.
     author: Kevin McAleer
     tags: ["motor"]
     license: BSD-3-Clause license
