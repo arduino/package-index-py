@@ -13,6 +13,11 @@ packages:
     docs: https://github.com/arduino/arduino-modulino-mpy/blob/main/docs/api.md
     tags: ["sensors", "actuators"]
     license: Mozilla Public License Version 2.0
+  - name: Motor Carrier Library for MicroPython (ESP32)
+    url: https://github.com/kevinmcaleer/arduino_nano_motor_carrier_mp
+    author: Kevin McAleer
+    tags: ["motor"]
+    license: BSD-3-Clause license
   - name: micropython-mpr121
     url: https://github.com/mcauser/micropython-mpr121
     author: Mike Causer
