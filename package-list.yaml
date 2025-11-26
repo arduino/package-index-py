@@ -28,6 +28,12 @@ packages:
     package_descriptor:
       urls:
         - [mpr121.py, github:mcauser/micropython-mpr121/mpr121.py]
+  - name: MicroPython QMI8658C Driver
+    url: https://github.com/sebromero/micropython-qmi8658c
+    author: Sebastian Romero
+    description: MicroPython library to access the QMI8658C 6-DoF accelerometer and gyroscope
+    tags: ["IMU"]
+    license: MPL-2.0
   - name: ads1x15
     url: https://github.com/robert-hh/ads1x15
     author: Robert Hammelrath
