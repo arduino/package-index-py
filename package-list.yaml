@@ -313,3 +313,9 @@ packages:
     description: This package adds the MicroPython apps framework, file system helpers, and WiFi network management.
     tags: ["arduino", "programming", "helpers", "application", "network"]
     license: Mozilla Public License Version 2.0
+  - name: Arduino Alvik micropython library
+    url: https://github.com/arduino/arduino-alvik-mpy
+    author: Arduino, Lucio Rossi, Giovanni di Dio Bruno
+    description: This package enables control of the Arduino Alvik educational robot from MicroPython, and includes helper functions for programming the robot.
+    tags: ["arduino", "programming", "helpers", "robotics"]
+    license: Mozilla Public License Version 2.0
