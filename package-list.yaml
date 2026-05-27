@@ -28,6 +28,12 @@ packages:
     package_descriptor:
       urls:
         - [mpr121.py, github:mcauser/micropython-mpr121/mpr121.py]
+  - name: MicroPython PCF85263A Driver
+    url: https://github.com/arduino/micropython-pcf85263a
+    author: Arduino, Sebastian Romero
+    description: Use the PCF85263A real time clock to read back the current time. Supports alarms and stopwatch mode.
+    tags: ["RTC"]
+    license: MPL-2.0
   - name: MicroPython QMI8658C Driver
     url: https://github.com/sebromero/micropython-qmi8658c
     author: Sebastian Romero
