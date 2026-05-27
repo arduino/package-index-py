@@ -33,7 +33,7 @@ packages:
     author: Arduino, Sebastian Romero
     description: Use the PCF85263A real time clock to read back the current time. Supports alarms and stopwatch mode.
     tags: ["RTC"]
-    license: MPL-2.0    
+    license: MPL-2.0
   - name: MicroPython QMI8658C Driver
     url: https://github.com/sebromero/micropython-qmi8658c
     author: Sebastian Romero
