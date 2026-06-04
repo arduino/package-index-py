@@ -270,6 +270,15 @@ packages:
     package_descriptor:
       urls:
         - [max7219.py, github:mcauser/micropython-max7219/max7219.py]
+  - name: micropython-ssd1309
+    url: https://github.com/rdagger/micropython-ssd1309
+    author: rdagger
+    description: MicroPython SPI and I2C Display Driver for SSD1309 monochrome OLED
+    tags: ["oled"]
+    license: Licensed under the MIT License.
+    package_descriptor:
+      urls:
+        - [ssd1309.py, github:rdagger/micropython-ssd1309/ssd1309.py]
   - name: BME280
     url: https://github.com/robert-hh/BME280
     description: MicroPython driver for the BME280 sensor, target platform Pycom devices.
