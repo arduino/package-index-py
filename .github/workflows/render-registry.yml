@@ -11,7 +11,7 @@ jobs:
         with:
           fetch-depth: 0
           ref: ${{ github.event.pull_request.head.ref }}
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v6
         with:
           node-version: 14
           cache: "npm"
@@ -19,7 +19,7 @@ jobs:
       - name: Install dependencies
         run: cd registry-renderer; npm i
       - name: Render list
-        run: node ./registry-renderer/index.js
+        run: node ./tools/registry-renderer/index.js ./package-list.yaml ./config/description.md ./README.md
       - name: Commit list
         run: |
           git --no-pager branch
