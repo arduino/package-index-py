@@ -4,6 +4,16 @@ import { execSync } from 'child_process';
 import yaml from 'js-yaml';
 
 /**
+ * This script automates the creation of a package index for the Arduino IDE's Python integration
+ * or a similar packaging system. It works by cloning the official micropython-lib repository,
+ * recursively scanning its directories to locate MicroPython packages (identified by `package.json`
+ * or `manifest.py`), and extracting relevant metadata such as the package name, GitHub tree URL
+ * for documentation, description, and author. The collected package information is then formatted
+ * and saved into a specified YAML file. Private packages (starting with "_") and Unix-specific 
+ * packages (under unix-ffi) are excluded from the index.
+ */
+
+/**
  * Clones a Git repository to a specified directory
  * @param {string} url The URL of the Git repository
  * @param {string} directory The target directory to clone the repository to
