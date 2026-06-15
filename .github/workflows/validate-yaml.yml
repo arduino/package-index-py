@@ -14,7 +14,7 @@ jobs:
           yamllint_file_or_dir: 'package-list.yaml'
           yamllint_strict: false
           yamllint_comment: true
-          yamllint_config_filepath: 'yamllint-config.yml'
+          yamllint_config_filepath: 'config/yamllint-config.yml'
         env:
           GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: 'Schema Validation'
