@@ -10,7 +10,7 @@ Packages that are added to this index automatically show up in the Arduino Packa
 Please read the [contribution guidelines](./CONTRIBUTING.md) to learn how to add your MicroPython packages to the MicroPython Package Index.
 
 
-## 📦 Packages (39)
+## 📦 Packages (40)
 ### [Arduino Alvik micropython library](https://github.com/arduino/arduino-alvik-mpy)
 
 This package enables control of the Arduino Alvik educational robot from MicroPython, and includes helper functions for programming the robot.  
@@ -590,6 +590,21 @@ A simple class for controlling a 9g servo with the Raspberry Pi Pico.
 <li>👤 <strong>Author:</strong> sandbo00</li>
 <li>📜 <strong>License:</strong> MIT License</li>
 <li>🏷️ <strong>Tags:</strong> servo</li>
+</ul>
+</details>
+
+<hr />
+
+### [python-apds9960](https://github.com/liske/python-apds9960)
+
+Python library for the APDS-9960 gesture sensor.  
+
+<details><summary>Details</summary>
+<ul>
+<li>🌐 <strong>URL:</strong> https://github.com/liske/python-apds9960</li>
+<li>👤 <strong>Author:</strong> Thomas Liske</li>
+<li>📜 <strong>License:</strong> GPL-3.0</li>
+<li>🏷️ <strong>Tags:</strong> gesture, light, proximity</li>
 </ul>
 </details>
 
