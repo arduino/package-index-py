@@ -6,10 +6,20 @@ If you would like to make a package available for installation via the MicroPyth
 [pull request](https://docs.github.com/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests)
 that adds the repository URL to [the list](package-list.yaml). You are welcome to add multiple packages at once.
 ​
-See below for detailed instructions on how to do this via the GitHub web interface.
+### Using the Interactive Tool (Recommended)
+
+If you have Node.js installed, you can use our interactive CLI tool to automatically add your package to the index. It will automatically fetch metadata from GitHub and sort the list for you:
+
+1. Clone this repository to your local machine.
+2. Run `npm install` inside the `tools/` folder.
+3. Run `node tools/add-entry.mjs` and follow the interactive prompts.
+4. Review the generated changes in `package-list.yaml`.
+5. Propose your changes via a Pull Request.
+
+### Using the GitHub Web Interface
 ​
-### Instructions
-​
+If you prefer not to download the repository, you can edit the file manually via the GitHub web interface:
+
 1. Open this link to fork this repository and edit the list via the
    GitHub web interface: https://github.com/arduino/package-index-py/edit/main/package-list.yaml
 1. Click the <kbd>Fork this repository</kbd> button.
