@@ -1,9 +1,14 @@
 import { load } from 'js-yaml';
 import { readFileSync, writeFileSync } from 'fs';
 
-const REGISTRY_FILE_PATH = "./package-list.yaml";
-const REPO_DESCRIPTION_PATH = "./description.md";
-const TARGET_PATH = "./README.md";
+const REGISTRY_FILE_PATH = process.argv[2];
+const REPO_DESCRIPTION_PATH = process.argv[3];
+const TARGET_PATH = process.argv[4];
+
+if (!REGISTRY_FILE_PATH || !REPO_DESCRIPTION_PATH || !TARGET_PATH) {
+    console.error("Usage: node index.js <registry_file_path> <repo_description_path> <target_path>");
+    process.exit(1);
+}
 
 /**
  * Reads the package list from the YAML file and returns it as a JavaScript object.

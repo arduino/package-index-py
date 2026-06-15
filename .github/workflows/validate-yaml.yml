@@ -14,10 +14,10 @@ jobs:
           yamllint_file_or_dir: 'package-list.yaml'
           yamllint_strict: false
           yamllint_comment: true
-          yamllint_config_filepath: 'yamllint-config.yml'
+          yamllint_config_filepath: 'config/yamllint-config.yml'
         env:
           GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: 'Schema Validation'
         run: |
           npm i -g yaml-schema-validator
-          schema validate -e -f package-list.yaml -s schema.yml
+          schema validate -e -f package-list.yaml -s config/schema.yml
