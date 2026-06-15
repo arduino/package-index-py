@@ -1,6 +1,9 @@
 # 🐍 MicroPython Package Index
 
-A list of useful MicroPython packages that can be used with the compatible Arduino products.  
+A list of useful MicroPython packages that can be used with the compatible Arduino products.
+Packages that are added to this index automatically show up in the Arduino Package Installer tool which can be downloaded [here](https://github.com/arduino/lab-micropython-package-installer/releases/latest). 
+
+![MicroPython Package Installer](./assets/mpy-package-installer.png)
 
 ## 🤲 Contributing
 
