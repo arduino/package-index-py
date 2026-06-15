@@ -17,7 +17,7 @@ jobs:
           cache: "npm"
           cache-dependency-path: "**/package-lock.json"
       - name: Install dependencies
-        run: cd registry-renderer; npm i
+        run: cd ./tools/registry-renderer; npm i
       - name: Render list
         run: node ./tools/registry-renderer/index.js ./package-list.yaml ./config/description.md ./README.md
       - name: Commit list
