@@ -8,6 +8,21 @@ Please read the [contribution guidelines](./CONTRIBUTING.md) to learn how to add
 
 
 ## 📦 Packages
+### [Arduino Alvik micropython library](https://github.com/arduino/arduino-alvik-mpy)
+
+This package enables control of the Arduino Alvik educational robot from MicroPython, and includes helper functions for programming the robot.  
+
+<details><summary>Details</summary>
+<ul>
+<li>🌐 <strong>URL:</strong> https://github.com/arduino/arduino-alvik-mpy</li>
+<li>👤 <strong>Author:</strong> Arduino, Lucio Rossi, Giovanni di Dio Bruno</li>
+<li>📜 <strong>License:</strong> Mozilla Public License Version 2.0</li>
+<li>🏷️ <strong>Tags:</strong> arduino, programming, helpers, robotics</li>
+</ul>
+</details>
+
+<hr />
+
 ### [Arduino Modulino](https://github.com/arduino/arduino-modulino-mpy)
 
 A MicroPython library to control Arduino Modulinos.  
@@ -48,6 +63,21 @@ Easily build sketches with setup/loop and use familiar Arduino APIs in MicroPyth
 <li>👤 <strong>Author:</strong> Arduino, Ubi de Feo, Sebastian Romero</li>
 <li>📜 <strong>License:</strong> Mozilla Public License Version 2.0</li>
 <li>🏷️ <strong>Tags:</strong> arduino, programming, helpers</li>
+</ul>
+</details>
+
+<hr />
+
+### [Arduino Tools for MicroPython](https://github.com/arduino/arduino-tools-mpy)
+
+This package adds the MicroPython apps framework, file system helpers, and WiFi network management.  
+
+<details><summary>Details</summary>
+<ul>
+<li>🌐 <strong>URL:</strong> https://github.com/arduino/arduino-tools-mpy</li>
+<li>👤 <strong>Author:</strong> Arduino, Ubi de Feo</li>
+<li>📜 <strong>License:</strong> Mozilla Public License Version 2.0</li>
+<li>🏷️ <strong>Tags:</strong> arduino, programming, helpers, application, network</li>
 </ul>
 </details>
 
@@ -120,6 +150,36 @@ A port of the SparkFun driver for Maxim MAX30102 sensor to MicroPython.
 
 <hr />
 
+### [MicroPython PCF85263A Driver](https://github.com/arduino/micropython-pcf85263a)
+
+Use the PCF85263A real time clock to read back the current time. Supports alarms and stopwatch mode.  
+
+<details><summary>Details</summary>
+<ul>
+<li>🌐 <strong>URL:</strong> https://github.com/arduino/micropython-pcf85263a</li>
+<li>👤 <strong>Author:</strong> Arduino, Sebastian Romero</li>
+<li>📜 <strong>License:</strong> MPL-2.0</li>
+<li>🏷️ <strong>Tags:</strong> RTC</li>
+</ul>
+</details>
+
+<hr />
+
+### [MicroPython QMI8658C Driver](https://github.com/sebromero/micropython-qmi8658c)
+
+MicroPython library to access the QMI8658C 6-DoF accelerometer and gyroscope  
+
+<details><summary>Details</summary>
+<ul>
+<li>🌐 <strong>URL:</strong> https://github.com/sebromero/micropython-qmi8658c</li>
+<li>👤 <strong>Author:</strong> Sebastian Romero</li>
+<li>📜 <strong>License:</strong> MPL-2.0</li>
+<li>🏷️ <strong>Tags:</strong> IMU</li>
+</ul>
+</details>
+
+<hr />
+
 ### [MicroPython-Button](https://github.com/ubidefeo/MicroPython-Button)
 
 An easy-to-use MicroPython library to handle buttons and other devices with digital (LOW/HIGH) output.  
@@ -133,6 +193,21 @@ An easy-to-use MicroPython library to handle buttons and other devices with digi
 <ul>
 <li>Verified with <code>arduino:mbed_nano:nanorp2040connect</code> on MicroPython vundefined</li>
 </ul></li>
+</ul>
+</details>
+
+<hr />
+
+### [Motor Carrier Library for MicroPython (ESP32)](https://github.com/kevinmcaleer/arduino_nano_motor_carrier_mp)
+
+Control the Arduino Motor Carrier shield, including DC motors, servo motors, encoders, PID control, and battery monitoring.  
+
+<details><summary>Details</summary>
+<ul>
+<li>🌐 <strong>URL:</strong> https://github.com/kevinmcaleer/arduino_nano_motor_carrier_mp</li>
+<li>👤 <strong>Author:</strong> Kevin McAleer</li>
+<li>📜 <strong>License:</strong> BSD-3-Clause license</li>
+<li>🏷️ <strong>Tags:</strong> motor</li>
 </ul>
 </details>
 
@@ -391,6 +466,21 @@ MicroPython driver to read a rotary encoder. Works with Pyboard, Raspberry Pi Pi
 
 <hr />
 
+### [micropython-ssd1309](https://github.com/rdagger/micropython-ssd1309)
+
+MicroPython SPI and I2C Display Driver for SSD1309 monochrome OLED  
+
+<details><summary>Details</summary>
+<ul>
+<li>🌐 <strong>URL:</strong> https://github.com/rdagger/micropython-ssd1309</li>
+<li>👤 <strong>Author:</strong> rdagger</li>
+<li>📜 <strong>License:</strong> Licensed under the MIT License.</li>
+<li>🏷️ <strong>Tags:</strong> oled</li>
+</ul>
+</details>
+
+<hr />
+
 ### [micropython-thermal-printer](https://github.com/ayoy/micropython-thermal-printer)
 
 This is the MicroPython port of Python Thermal Printer by Adafruit.  
@@ -452,6 +542,21 @@ A MicroPython library for controlling servos using PDM (Pulse Density Modulation
 <ul>
 <li>Verified with <code>arduino:mbed_nano:nanorp2040connect</code> on MicroPython vundefined</li>
 </ul></li>
+</ul>
+</details>
+
+<hr />
+
+### [mrequests](https://github.com/SpotlightKid/mrequests)
+
+An HTTP client module for MicroPython with an API similar to requests.  
+
+<details><summary>Details</summary>
+<ul>
+<li>🌐 <strong>URL:</strong> https://github.com/SpotlightKid/mrequests</li>
+<li>👤 <strong>Author:</strong> Christopher Arndt</li>
+<li>📜 <strong>License:</strong> MIT License</li>
+<li>🏷️ <strong>Tags:</strong> network, HTTP</li>
 </ul>
 </details>
 
