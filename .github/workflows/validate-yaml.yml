@@ -20,4 +20,4 @@ jobs:
       - name: 'Schema Validation'
         run: |
           npm i -g yaml-schema-validator
-          schema validate -e -f package-list.yaml -s schema.yml
+          schema validate -e -f package-list.yaml -s config/schema.yml
