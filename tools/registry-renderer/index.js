@@ -76,7 +76,8 @@ function getMarkdownFromPackageList(packageList) {
         return entry;
 
     }).join("<hr />\n\n");
-    return `## 📦 Packages\n${libraryData}`;
+    const packageCount = packageList.length;
+    return `## 📦 Packages (${packageCount})\n${libraryData}`;
 }
 
 
