@@ -142,6 +142,12 @@ packages:
     description: Nonblocking device drivers for IR (infra red) blaster apps.
     tags: [IR]
     license: MIT
+  - name: MicroPython LTR-381RGB-01 Driver
+    url: https://github.com/arduino/micropython-ltr-381rgb-01
+    author: Arduino
+    description: MicroPython driver for Lite-On's LTR-381RGB-01 ambient light and color sensor.
+    tags: [light, color]
+    license: MPL-2.0
   - name: micropython-max7219
     url: https://github.com/mcauser/micropython-max7219
     author: Mike Causer
