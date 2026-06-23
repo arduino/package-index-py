@@ -10,7 +10,7 @@ Packages that are added to this index automatically show up in the Arduino Packa
 Please read the [contribution guidelines](./CONTRIBUTING.md) to learn how to add your MicroPython packages to the MicroPython Package Index.
 
 
-## 📦 Packages (40)
+## 📦 Packages (41)
 ### [Arduino Alvik micropython library](https://github.com/arduino/arduino-alvik-mpy)
 
 This package enables control of the Arduino Alvik educational robot from MicroPython, and includes helper functions for programming the robot.  
@@ -148,6 +148,21 @@ A port of the SparkFun driver for Maxim MAX30102 sensor to MicroPython.
 <li>👤 <strong>Author:</strong> n-elia</li>
 <li>📜 <strong>License:</strong> MIT License</li>
 <li>🏷️ <strong>Tags:</strong> sensors</li>
+</ul>
+</details>
+
+<hr />
+
+### [MicroPython LTR-381RGB-01 Driver](https://github.com/arduino/micropython-ltr-381rgb-01)
+
+MicroPython driver for Lite-On's LTR-381RGB-01 ambient light and color sensor.  
+
+<details><summary>Details</summary>
+<ul>
+<li>🌐 <strong>URL:</strong> https://github.com/arduino/micropython-ltr-381rgb-01</li>
+<li>👤 <strong>Author:</strong> Arduino</li>
+<li>📜 <strong>License:</strong> MPL-2.0</li>
+<li>🏷️ <strong>Tags:</strong> light, color</li>
 </ul>
 </details>
 
