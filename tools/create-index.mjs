@@ -17,7 +17,7 @@ import yaml from 'js-yaml';
  * Clones a Git repository to a specified directory
  * @param {string} url The URL of the Git repository
  * @param {string} directory The target directory to clone the repository to
- * @returns 
+ * @returns  {boolean} True if the clone was successful, false otherwise
  */
 const cloneRepository = (url, directory) => {
   try {
@@ -126,6 +126,7 @@ function extractDescription(filePath) {
  * @param {string} indexUrl The URL of the package index to be assigned to each package
  * @param {RegExp} excludePattern A regular expression to exclude certain directories
  * @returns {string} A YAML representation of the package list as a string
+ * @returns {null} If an error occurs
  */
 const generatePackageList = (directory, indexUrl, excludePattern) => {
   const result = { packages: [] };
@@ -136,7 +137,7 @@ const generatePackageList = (directory, indexUrl, excludePattern) => {
   const currentBranch = getCurrentBranch(repositoryRoot);
 
   if (!repositoryRoot || !gitHubUrl || !currentBranch) {
-    return;
+    return null; // Return null if any of the required information is missing
   }
 
   const collectPackages = (dir, rootPath) => {
@@ -196,7 +197,10 @@ if (process.argv.length < 3) {
   }
 
   if(!fs.existsSync('build/micropython-lib')) {
-    cloneRepository("git@github.com:micropython/micropython-lib.git", "build/micropython-lib");
+    if (!cloneRepository("git@github.com:micropython/micropython-lib.git", "build/micropython-lib")) {
+      console.error('Failed to clone repository. Aborting.');
+      process.exit(1);
+    }
   }
   const directory = "build/micropython-lib";
   const indexUrl = "https://micropython.org/pi/v2";
@@ -204,6 +208,10 @@ if (process.argv.length < 3) {
   const excludePattern = /\/unix-ffi\//; // Skip Unix-specific packages
 
   const packageList = generatePackageList(directory, indexUrl, excludePattern);
+  if (!packageList) {
+    console.error('Failed to generate package list. Aborting to avoid overwriting the index file.');
+    process.exit(1);
+  }
   try {
     fs.writeFileSync(outputFilename, `---\n${packageList}`);
     console.log(`YAML file saved to ${outputFilename}`);
