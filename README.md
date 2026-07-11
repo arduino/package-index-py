@@ -10,7 +10,7 @@ Packages that are added to this index automatically show up in the Arduino Packa
 Please read the [contribution guidelines](./CONTRIBUTING.md) to learn how to add your MicroPython packages to the MicroPython Package Index.
 
 
-## 📦 Packages (41)
+## 📦 Packages (42)
 ### [Arduino Alvik micropython library](https://github.com/arduino/arduino-alvik-mpy)
 
 This package enables control of the Arduino Alvik educational robot from MicroPython, and includes helper functions for programming the robot.  
@@ -649,6 +649,21 @@ A MicroPython porting of the ucPack library.
 <li>👤 <strong>Author:</strong> Arduino, Giovanni di Dio Bruno, Lucio Rossi</li>
 <li>📜 <strong>License:</strong> Mozilla Public License Version 2.0</li>
 <li>🏷️ <strong>Tags:</strong> communication</li>
+</ul>
+</details>
+
+<hr />
+
+### [vl53l0x](https://github.com/kevinmcaleer/vl53l0x/)
+
+MicroPython driver for the vl53l0x time of flight sensor.  
+
+<details><summary>Details</summary>
+<ul>
+<li>🌐 <strong>URL:</strong> https://github.com/kevinmcaleer/vl53l0x/</li>
+<li>👤 <strong>Author:</strong> Kevin McAleer</li>
+<li>📜 <strong>License:</strong> BSD-3-Clause</li>
+<li>🏷️ <strong>Tags:</strong> tof, distance</li>
 </ul>
 </details>
 
