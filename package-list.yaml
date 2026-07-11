@@ -202,7 +202,7 @@ packages:
     description: MicroPython SPI and I2C Display Driver for SSD1309 monochrome OLED
     tags: [oled]
     license: Licensed under the MIT License.
-    package_descriptor: {urls: [[ssd1309.py, github:rdagger/micropython-ssd1309/ssd1309.py]]}
+    package_descriptor: {urls: [[ssd1309.py, github:rdagger/micropython-ssd1309/ssd1309.py], [xglcd_font.py, github:rdagger/micropython-ssd1309/xglcd_font.py]]}
   - name: micropython-thermal-printer
     url: https://github.com/ayoy/micropython-thermal-printer
     author: ayoy
