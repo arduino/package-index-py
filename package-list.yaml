@@ -267,3 +267,10 @@ packages:
     description: A MicroPython porting of the ucPack library.
     tags: [communication]
     license: Mozilla Public License Version 2.0
+  - name: vl53l0x
+    url: https://github.com/kevinmcaleer/vl53l0x/
+    author: Kevin McAleer
+    description: MicroPython driver for the vl53l0x time of flight sensor.
+    tags: [tof, distance]
+    license: BSD-3-Clause
+    package_descriptor: {urls: [[vl53l0x.py, github:kevinmcaleer/vl53l0x/vl53l0x.py]]}
