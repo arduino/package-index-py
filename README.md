@@ -10,7 +10,7 @@ Packages that are added to this index automatically show up in the Arduino Packa
 Please read the [contribution guidelines](./CONTRIBUTING.md) to learn how to add your MicroPython packages to the MicroPython Package Index.
 
 
-## 📦 Packages (42)
+## 📦 Packages (43)
 ### [Arduino Alvik micropython library](https://github.com/arduino/arduino-alvik-mpy)
 
 This package enables control of the Arduino Alvik educational robot from MicroPython, and includes helper functions for programming the robot.  
@@ -367,6 +367,21 @@ Nonblocking device drivers for IR (infra red) blaster apps.
 <li>👤 <strong>Author:</strong> Peter Hinch</li>
 <li>📜 <strong>License:</strong> MIT</li>
 <li>🏷️ <strong>Tags:</strong> IR</li>
+</ul>
+</details>
+
+<hr />
+
+### [micropython-irsd500](https://github.com/arduino/micropython-irsd500/)
+
+Read data from the Murata IRSD500 Digital PIR Sensor over I2C.  
+
+<details><summary>Details</summary>
+<ul>
+<li>🌐 <strong>URL:</strong> https://github.com/arduino/micropython-irsd500/</li>
+<li>👤 <strong>Author:</strong> Arduino</li>
+<li>📜 <strong>License:</strong> MPL-2.0</li>
+<li>🏷️ <strong>Tags:</strong> pir, motion</li>
 </ul>
 </details>
 
