@@ -72,6 +72,12 @@ packages:
     description: A port of the SparkFun driver for Maxim MAX30102 sensor to MicroPython.
     tags: [sensors]
     license: MIT License
+  - name: MicroPython LTR-381RGB-01 Driver
+    url: https://github.com/arduino/micropython-ltr-381rgb-01
+    author: Arduino
+    description: MicroPython driver for Lite-On's LTR-381RGB-01 ambient light and color sensor.
+    tags: [light, color]
+    license: MPL-2.0
   - name: MicroPython PCF85263A Driver
     url: https://github.com/arduino/micropython-pcf85263a
     author: Arduino, Sebastian Romero
@@ -142,11 +148,11 @@ packages:
     description: Nonblocking device drivers for IR (infra red) blaster apps.
     tags: [IR]
     license: MIT
-  - name: MicroPython LTR-381RGB-01 Driver
-    url: https://github.com/arduino/micropython-ltr-381rgb-01
+  - name: micropython-irsd500
+    url: https://github.com/arduino/micropython-irsd500/
     author: Arduino
-    description: MicroPython driver for Lite-On's LTR-381RGB-01 ambient light and color sensor.
-    tags: [light, color]
+    description: Read data from the Murata IRSD500 Digital PIR Sensor over I2C.
+    tags: [pir, motion]
     license: MPL-2.0
   - name: micropython-max7219
     url: https://github.com/mcauser/micropython-max7219
