@@ -152,7 +152,7 @@ packages:
     url: https://github.com/arduino/micropython-irsd500/
     author: Arduino
     description: Read data from the Murata IRSD500 Digital PIR Sensor over I2C.
-    tags: [pir, motion]
+    tags: [PIR, motion]
     license: MPL-2.0
   - name: micropython-max7219
     url: https://github.com/mcauser/micropython-max7219
