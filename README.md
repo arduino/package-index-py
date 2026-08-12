@@ -381,7 +381,7 @@ Read data from the Murata IRSD500 Digital PIR Sensor over I2C.
 <li>🌐 <strong>URL:</strong> https://github.com/arduino/micropython-irsd500/</li>
 <li>👤 <strong>Author:</strong> Arduino</li>
 <li>📜 <strong>License:</strong> MPL-2.0</li>
-<li>🏷️ <strong>Tags:</strong> pir, motion</li>
+<li>🏷️ <strong>Tags:</strong> PIR, motion</li>
 </ul>
 </details>
 
